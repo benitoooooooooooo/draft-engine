@@ -119,6 +119,71 @@ class DraftState:
         self.picks_made.append((team, player))
         self.available = [p for p in self.available if p.sleeper_id != player.sleeper_id]
         self.current_pick += 1
+        self._export_state()
+    
+    def _export_state(self):
+        """Write current draft state to JSON for Hermes monitoring"""
+        import os
+        state = {
+            'current_pick': self.current_pick,
+            'current_team': self.current_team(),
+            'total_picks': self.config.total_picks,
+            'picks_made': [
+                {
+                    'pick_number': i + 1,
+                    'team': team + 1,
+                    'player': p.name,
+                    'position': p.position,
+                    'team_name': p.team,
+                    'projected_pts': p.projected_pts
+                }
+                for i, (team, p) in enumerate(self.picks_made)
+            ],
+            'available_count': len(self.available),
+            'available_by_position': {
+                pos: len([p for p in self.available if p.position == pos])
+                for pos in ['QB', 'RB', 'WR', 'TE']
+            },
+            'rosters': {
+                str(tid + 1): {
+                    'players': [
+                        {
+                            'name': p.name,
+                            'position': p.position,
+                            'team': p.team,
+                            'projected_pts': p.projected_pts,
+                            'round': (i // self.config.teams) + 1
+                        }
+                        for i, p in enumerate(roster.players)
+                    ]
+                }
+                for tid, roster in self.rosters.items()
+            }
+        }
+        
+        export_path = os.path.join(os.path.dirname(__file__), '..', 'draft_state.json')
+        with open(export_path, 'w') as f:
+            json.dump(state, f, indent=2)
+        
+        # Also write human-readable summary
+        summary_path = os.path.join(os.path.dirname(__file__), '..', 'draft_summary.txt')
+        with open(summary_path, 'w') as f:
+            f.write(f"2O2 DRAFT ENGINE - Live Summary\n")
+            f.write(f"{'='*60}\n")
+            f.write(f"Round: {(self.current_pick // self.config.teams) + 1}\n")
+            f.write(f"Current Pick: {self.current_pick + 1} / {self.config.total_picks}\n")
+            f.write(f"On the clock: Team {self.current_team() + 1}\n\n")
+            
+            f.write(f"LAST 5 PICKS:\n")
+            for i, (team, p) in enumerate(self.picks_made[-5:], max(1, len(self.picks_made) - 4)):
+                f.write(f"  {i}. Team {team + 1}: {p.name} ({p.position})\n")
+            
+            f.write(f"\nAVAILABLE BY POSITION:\n")
+            for pos in ['QB', 'RB', 'WR', 'TE']:
+                count = len([p for p in self.available if p.position == pos])
+                f.write(f"  {pos}: {count}\n")
+        
+        return export_path
 
 
 class ValuationEngine:
