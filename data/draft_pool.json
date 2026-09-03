@@ -1,0 +1,1397 @@
+[
+  {
+    "rank": 1,
+    "name": "Jalen Hurts",
+    "position": "QB",
+    "team": "PHI",
+    "projected_pts": 365.0,
+    "tier": 2,
+    "sleeper_id": "player_001"
+  },
+  {
+    "rank": 2,
+    "name": "Lamar Jackson",
+    "position": "QB",
+    "team": "BAL",
+    "projected_pts": 350.0,
+    "tier": 2,
+    "sleeper_id": "player_002"
+  },
+  {
+    "rank": 3,
+    "name": "Jayden Daniels",
+    "position": "QB",
+    "team": "WAS",
+    "projected_pts": 345.0,
+    "tier": 2,
+    "sleeper_id": "player_003"
+  },
+  {
+    "rank": 4,
+    "name": "CeeDee Lamb",
+    "position": "WR",
+    "team": "DAL",
+    "projected_pts": 342.0,
+    "tier": 1,
+    "sleeper_id": "player_004"
+  },
+  {
+    "rank": 5,
+    "name": "Tyreek Hill",
+    "position": "WR",
+    "team": "MIA",
+    "projected_pts": 338.5,
+    "tier": 1,
+    "sleeper_id": "player_005"
+  },
+  {
+    "rank": 6,
+    "name": "Amon-Ra St. Brown",
+    "position": "WR",
+    "team": "DET",
+    "projected_pts": 335.0,
+    "tier": 1,
+    "sleeper_id": "player_006"
+  },
+  {
+    "rank": 7,
+    "name": "Josh Allen",
+    "position": "QB",
+    "team": "BUF",
+    "projected_pts": 335.0,
+    "tier": 3,
+    "sleeper_id": "player_007"
+  },
+  {
+    "rank": 8,
+    "name": "Justin Jefferson",
+    "position": "WR",
+    "team": "MIN",
+    "projected_pts": 328.0,
+    "tier": 1,
+    "sleeper_id": "player_008"
+  },
+  {
+    "rank": 9,
+    "name": "Saquon Barkley",
+    "position": "RB",
+    "team": "PHI",
+    "projected_pts": 325.5,
+    "tier": 1,
+    "sleeper_id": "player_009"
+  },
+  {
+    "rank": 10,
+    "name": "Ja'Marr Chase",
+    "position": "WR",
+    "team": "CIN",
+    "projected_pts": 325.0,
+    "tier": 1,
+    "sleeper_id": "player_010"
+  },
+  {
+    "rank": 11,
+    "name": "Caleb Williams",
+    "position": "QB",
+    "team": "CHI",
+    "projected_pts": 320.0,
+    "tier": 3,
+    "sleeper_id": "player_011"
+  },
+  {
+    "rank": 12,
+    "name": "Garrett Wilson",
+    "position": "WR",
+    "team": "NYJ",
+    "projected_pts": 318.5,
+    "tier": 1,
+    "sleeper_id": "player_012"
+  },
+  {
+    "rank": 13,
+    "name": "Jaylen Waddle",
+    "position": "WR",
+    "team": "MIA",
+    "projected_pts": 315.0,
+    "tier": 1,
+    "sleeper_id": "player_013"
+  },
+  {
+    "rank": 14,
+    "name": "Patrick Mahomes",
+    "position": "QB",
+    "team": "KC",
+    "projected_pts": 315.0,
+    "tier": 3,
+    "sleeper_id": "player_014"
+  },
+  {
+    "rank": 15,
+    "name": "Breece Hall",
+    "position": "RB",
+    "team": "NYJ",
+    "projected_pts": 312.0,
+    "tier": 1,
+    "sleeper_id": "player_015"
+  },
+  {
+    "rank": 16,
+    "name": "A.J. Brown",
+    "position": "WR",
+    "team": "PHI",
+    "projected_pts": 312.0,
+    "tier": 1,
+    "sleeper_id": "player_016"
+  },
+  {
+    "rank": 17,
+    "name": "Jahmyr Gibbs",
+    "position": "RB",
+    "team": "DET",
+    "projected_pts": 308.5,
+    "tier": 1,
+    "sleeper_id": "player_017"
+  },
+  {
+    "rank": 18,
+    "name": "DK Metcalf",
+    "position": "WR",
+    "team": "SEA",
+    "projected_pts": 308.0,
+    "tier": 1,
+    "sleeper_id": "player_018"
+  },
+  {
+    "rank": 19,
+    "name": "Anthony Richardson",
+    "position": "QB",
+    "team": "IND",
+    "projected_pts": 300.0,
+    "tier": 4,
+    "sleeper_id": "player_019"
+  },
+  {
+    "rank": 20,
+    "name": "Kyren Williams",
+    "position": "RB",
+    "team": "LAR",
+    "projected_pts": 298.0,
+    "tier": 1,
+    "sleeper_id": "player_020"
+  },
+  {
+    "rank": 21,
+    "name": "Drake London",
+    "position": "WR",
+    "team": "ATL",
+    "projected_pts": 298.0,
+    "tier": 2,
+    "sleeper_id": "player_021"
+  },
+  {
+    "rank": 22,
+    "name": "Jonathan Taylor",
+    "position": "RB",
+    "team": "IND",
+    "projected_pts": 295.5,
+    "tier": 1,
+    "sleeper_id": "player_022"
+  },
+  {
+    "rank": 23,
+    "name": "Malik Nabers",
+    "position": "WR",
+    "team": "NYG",
+    "projected_pts": 295.0,
+    "tier": 2,
+    "sleeper_id": "player_023"
+  },
+  {
+    "rank": 24,
+    "name": "Jordan Love",
+    "position": "QB",
+    "team": "GB",
+    "projected_pts": 295.0,
+    "tier": 4,
+    "sleeper_id": "player_024"
+  },
+  {
+    "rank": 25,
+    "name": "Puka Nacua",
+    "position": "WR",
+    "team": "LAR",
+    "projected_pts": 292.0,
+    "tier": 2,
+    "sleeper_id": "player_025"
+  },
+  {
+    "rank": 26,
+    "name": "Nico Collins",
+    "position": "WR",
+    "team": "HOU",
+    "projected_pts": 290.0,
+    "tier": 2,
+    "sleeper_id": "player_026"
+  },
+  {
+    "rank": 27,
+    "name": "Joe Burrow",
+    "position": "QB",
+    "team": "CIN",
+    "projected_pts": 290.0,
+    "tier": 4,
+    "sleeper_id": "player_027"
+  },
+  {
+    "rank": 28,
+    "name": "Cooper Kupp",
+    "position": "WR",
+    "team": "SEA",
+    "projected_pts": 288.0,
+    "tier": 2,
+    "sleeper_id": "player_028"
+  },
+  {
+    "rank": 29,
+    "name": "Brock Bowers",
+    "position": "TE",
+    "team": "LV",
+    "projected_pts": 285.0,
+    "tier": 1,
+    "sleeper_id": "player_029"
+  },
+  {
+    "rank": 30,
+    "name": "Derrick Henry",
+    "position": "RB",
+    "team": "BAL",
+    "projected_pts": 285.0,
+    "tier": 2,
+    "sleeper_id": "player_030"
+  },
+  {
+    "rank": 31,
+    "name": "DeVonta Smith",
+    "position": "WR",
+    "team": "PHI",
+    "projected_pts": 285.0,
+    "tier": 2,
+    "sleeper_id": "player_031"
+  },
+  {
+    "rank": 32,
+    "name": "Jared Goff",
+    "position": "QB",
+    "team": "DET",
+    "projected_pts": 285.0,
+    "tier": 4,
+    "sleeper_id": "player_032"
+  },
+  {
+    "rank": 33,
+    "name": "Terry McLaurin",
+    "position": "WR",
+    "team": "WAS",
+    "projected_pts": 282.0,
+    "tier": 2,
+    "sleeper_id": "player_033"
+  },
+  {
+    "rank": 34,
+    "name": "DJ Moore",
+    "position": "WR",
+    "team": "CHI",
+    "projected_pts": 280.0,
+    "tier": 2,
+    "sleeper_id": "player_034"
+  },
+  {
+    "rank": 35,
+    "name": "Bo Nix",
+    "position": "QB",
+    "team": "DEN",
+    "projected_pts": 280.0,
+    "tier": 4,
+    "sleeper_id": "player_035"
+  },
+  {
+    "rank": 36,
+    "name": "Geno Smith",
+    "position": "QB",
+    "team": "SEA",
+    "projected_pts": 278.0,
+    "tier": 4,
+    "sleeper_id": "player_036"
+  },
+  {
+    "rank": 37,
+    "name": "Chuba Hubbard",
+    "position": "RB",
+    "team": "CAR",
+    "projected_pts": 275.5,
+    "tier": 2,
+    "sleeper_id": "player_037"
+  },
+  {
+    "rank": 38,
+    "name": "Marvin Harrison Jr.",
+    "position": "WR",
+    "team": "ARI",
+    "projected_pts": 275.0,
+    "tier": 2,
+    "sleeper_id": "player_038"
+  },
+  {
+    "rank": 39,
+    "name": "Dak Prescott",
+    "position": "QB",
+    "team": "DAL",
+    "projected_pts": 275.0,
+    "tier": 4,
+    "sleeper_id": "player_039"
+  },
+  {
+    "rank": 40,
+    "name": "Travis Etienne",
+    "position": "RB",
+    "team": "JAC",
+    "projected_pts": 272.0,
+    "tier": 2,
+    "sleeper_id": "player_040"
+  },
+  {
+    "rank": 41,
+    "name": "Romeo Doubs",
+    "position": "WR",
+    "team": "GB",
+    "projected_pts": 272.0,
+    "tier": 2,
+    "sleeper_id": "player_041"
+  },
+  {
+    "rank": 42,
+    "name": "C.J. Stroud",
+    "position": "QB",
+    "team": "HOU",
+    "projected_pts": 272.0,
+    "tier": 4,
+    "sleeper_id": "player_042"
+  },
+  {
+    "rank": 43,
+    "name": "Tee Higgins",
+    "position": "WR",
+    "team": "CIN",
+    "projected_pts": 270.0,
+    "tier": 2,
+    "sleeper_id": "player_043"
+  },
+  {
+    "rank": 44,
+    "name": "Bryce Young",
+    "position": "QB",
+    "team": "CAR",
+    "projected_pts": 270.0,
+    "tier": 4,
+    "sleeper_id": "player_044"
+  },
+  {
+    "rank": 45,
+    "name": "Kenneth Walker III",
+    "position": "RB",
+    "team": "SEA",
+    "projected_pts": 268.0,
+    "tier": 2,
+    "sleeper_id": "player_045"
+  },
+  {
+    "rank": 46,
+    "name": "Chris Olave",
+    "position": "WR",
+    "team": "NO",
+    "projected_pts": 268.0,
+    "tier": 2,
+    "sleeper_id": "player_046"
+  },
+  {
+    "rank": 47,
+    "name": "Brock Purdy",
+    "position": "QB",
+    "team": "SF",
+    "projected_pts": 268.0,
+    "tier": 4,
+    "sleeper_id": "player_047"
+  },
+  {
+    "rank": 48,
+    "name": "Josh Jacobs",
+    "position": "RB",
+    "team": "GB",
+    "projected_pts": 265.0,
+    "tier": 2,
+    "sleeper_id": "player_048"
+  },
+  {
+    "rank": 49,
+    "name": "Rashee Rice",
+    "position": "WR",
+    "team": "KC",
+    "projected_pts": 265.0,
+    "tier": 2,
+    "sleeper_id": "player_049"
+  },
+  {
+    "rank": 50,
+    "name": "Justin Herbert",
+    "position": "QB",
+    "team": "LAC",
+    "projected_pts": 265.0,
+    "tier": 4,
+    "sleeper_id": "player_050"
+  },
+  {
+    "rank": 51,
+    "name": "Aaron Jones",
+    "position": "RB",
+    "team": "MIN",
+    "projected_pts": 262.0,
+    "tier": 2,
+    "sleeper_id": "player_051"
+  },
+  {
+    "rank": 52,
+    "name": "George Pickens",
+    "position": "WR",
+    "team": "DAL",
+    "projected_pts": 262.0,
+    "tier": 2,
+    "sleeper_id": "player_052"
+  },
+  {
+    "rank": 53,
+    "name": "Trevor Lawrence",
+    "position": "QB",
+    "team": "JAC",
+    "projected_pts": 262.0,
+    "tier": 4,
+    "sleeper_id": "player_053"
+  },
+  {
+    "rank": 54,
+    "name": "Matthew Stafford",
+    "position": "QB",
+    "team": "LAR",
+    "projected_pts": 260.0,
+    "tier": 4,
+    "sleeper_id": "player_054"
+  },
+  {
+    "rank": 55,
+    "name": "James Conner",
+    "position": "RB",
+    "team": "ARI",
+    "projected_pts": 258.5,
+    "tier": 2,
+    "sleeper_id": "player_055"
+  },
+  {
+    "rank": 56,
+    "name": "Jaxon Smith-Njigba",
+    "position": "WR",
+    "team": "SEA",
+    "projected_pts": 258.0,
+    "tier": 3,
+    "sleeper_id": "player_056"
+  },
+  {
+    "rank": 57,
+    "name": "Daniel Jones",
+    "position": "QB",
+    "team": "MIN",
+    "projected_pts": 258.0,
+    "tier": 4,
+    "sleeper_id": "player_057"
+  },
+  {
+    "rank": 58,
+    "name": "Rhamondre Stevenson",
+    "position": "RB",
+    "team": "NE",
+    "projected_pts": 255.0,
+    "tier": 2,
+    "sleeper_id": "player_058"
+  },
+  {
+    "rank": 59,
+    "name": "Ladd McConkey",
+    "position": "WR",
+    "team": "LAC",
+    "projected_pts": 255.0,
+    "tier": 3,
+    "sleeper_id": "player_059"
+  },
+  {
+    "rank": 60,
+    "name": "Russell Wilson",
+    "position": "QB",
+    "team": "NYG",
+    "projected_pts": 255.0,
+    "tier": 4,
+    "sleeper_id": "player_060"
+  },
+  {
+    "rank": 61,
+    "name": "Najee Harris",
+    "position": "RB",
+    "team": "PIT",
+    "projected_pts": 252.0,
+    "tier": 2,
+    "sleeper_id": "player_061"
+  },
+  {
+    "rank": 62,
+    "name": "Jerry Jeudy",
+    "position": "WR",
+    "team": "CLE",
+    "projected_pts": 252.0,
+    "tier": 3,
+    "sleeper_id": "player_062"
+  },
+  {
+    "rank": 63,
+    "name": "Kirk Cousins",
+    "position": "QB",
+    "team": "ATL",
+    "projected_pts": 252.0,
+    "tier": 4,
+    "sleeper_id": "player_063"
+  },
+  {
+    "rank": 64,
+    "name": "De'Von Achane",
+    "position": "RB",
+    "team": "MIA",
+    "projected_pts": 250.0,
+    "tier": 2,
+    "sleeper_id": "player_064"
+  },
+  {
+    "rank": 65,
+    "name": "Diontae Johnson",
+    "position": "WR",
+    "team": "CAR",
+    "projected_pts": 250.0,
+    "tier": 3,
+    "sleeper_id": "player_065"
+  },
+  {
+    "rank": 66,
+    "name": "Javonte Williams",
+    "position": "RB",
+    "team": "DAL",
+    "projected_pts": 248.0,
+    "tier": 2,
+    "sleeper_id": "player_066"
+  },
+  {
+    "rank": 67,
+    "name": "Courtland Sutton",
+    "position": "WR",
+    "team": "DEN",
+    "projected_pts": 248.0,
+    "tier": 3,
+    "sleeper_id": "player_067"
+  },
+  {
+    "rank": 68,
+    "name": "Brian Robinson Jr.",
+    "position": "RB",
+    "team": "WAS",
+    "projected_pts": 245.0,
+    "tier": 2,
+    "sleeper_id": "player_068"
+  },
+  {
+    "rank": 69,
+    "name": "Trey McBride",
+    "position": "TE",
+    "team": "ARI",
+    "projected_pts": 245.0,
+    "tier": 2,
+    "sleeper_id": "player_069"
+  },
+  {
+    "rank": 70,
+    "name": "Brian Thomas Jr.",
+    "position": "WR",
+    "team": "JAC",
+    "projected_pts": 245.0,
+    "tier": 3,
+    "sleeper_id": "player_070"
+  },
+  {
+    "rank": 71,
+    "name": "Alvin Kamara",
+    "position": "RB",
+    "team": "NO",
+    "projected_pts": 242.0,
+    "tier": 3,
+    "sleeper_id": "player_071"
+  },
+  {
+    "rank": 72,
+    "name": "Jahad White",
+    "position": "RB",
+    "team": "CAR",
+    "projected_pts": 240.0,
+    "tier": 3,
+    "sleeper_id": "player_072"
+  },
+  {
+    "rank": 73,
+    "name": "Joe Mixon",
+    "position": "RB",
+    "team": "HOU",
+    "projected_pts": 238.0,
+    "tier": 3,
+    "sleeper_id": "player_073"
+  },
+  {
+    "rank": 74,
+    "name": "Mike Evans",
+    "position": "WR",
+    "team": "TB",
+    "projected_pts": 238.0,
+    "tier": 3,
+    "sleeper_id": "player_074"
+  },
+  {
+    "rank": 75,
+    "name": "Sam LaPorta",
+    "position": "TE",
+    "team": "DET",
+    "projected_pts": 235.0,
+    "tier": 2,
+    "sleeper_id": "player_075"
+  },
+  {
+    "rank": 76,
+    "name": "David Montgomery",
+    "position": "RB",
+    "team": "DET",
+    "projected_pts": 235.0,
+    "tier": 3,
+    "sleeper_id": "player_076"
+  },
+  {
+    "rank": 77,
+    "name": "Amari Cooper",
+    "position": "WR",
+    "team": "CLE",
+    "projected_pts": 235.0,
+    "tier": 3,
+    "sleeper_id": "player_077"
+  },
+  {
+    "rank": 78,
+    "name": "James Cook",
+    "position": "RB",
+    "team": "BUF",
+    "projected_pts": 232.0,
+    "tier": 3,
+    "sleeper_id": "player_078"
+  },
+  {
+    "rank": 79,
+    "name": "Zay Flowers",
+    "position": "WR",
+    "team": "BAL",
+    "projected_pts": 232.0,
+    "tier": 3,
+    "sleeper_id": "player_079"
+  },
+  {
+    "rank": 80,
+    "name": "Jaleel McLaughlin",
+    "position": "RB",
+    "team": "DEN",
+    "projected_pts": 230.0,
+    "tier": 3,
+    "sleeper_id": "player_080"
+  },
+  {
+    "rank": 81,
+    "name": "Jordyn Adams",
+    "position": "WR",
+    "team": "LAC",
+    "projected_pts": 230.0,
+    "tier": 3,
+    "sleeper_id": "player_081"
+  },
+  {
+    "rank": 82,
+    "name": "Zamir White",
+    "position": "RB",
+    "team": "LV",
+    "projected_pts": 228.0,
+    "tier": 3,
+    "sleeper_id": "player_082"
+  },
+  {
+    "rank": 83,
+    "name": "Xavier Worthy",
+    "position": "WR",
+    "team": "KC",
+    "projected_pts": 228.0,
+    "tier": 3,
+    "sleeper_id": "player_083"
+  },
+  {
+    "rank": 84,
+    "name": "George Kittle",
+    "position": "TE",
+    "team": "SF",
+    "projected_pts": 225.0,
+    "tier": 2,
+    "sleeper_id": "player_084"
+  },
+  {
+    "rank": 85,
+    "name": "Jonathon Brooks",
+    "position": "RB",
+    "team": "CAR",
+    "projected_pts": 225.0,
+    "tier": 3,
+    "sleeper_id": "player_085"
+  },
+  {
+    "rank": 86,
+    "name": "Jordan Addison",
+    "position": "WR",
+    "team": "MIN",
+    "projected_pts": 225.0,
+    "tier": 3,
+    "sleeper_id": "player_086"
+  },
+  {
+    "rank": 87,
+    "name": "Chase Brown",
+    "position": "RB",
+    "team": "CIN",
+    "projected_pts": 222.0,
+    "tier": 3,
+    "sleeper_id": "player_087"
+  },
+  {
+    "rank": 88,
+    "name": "Jameson Williams",
+    "position": "WR",
+    "team": "DET",
+    "projected_pts": 222.0,
+    "tier": 3,
+    "sleeper_id": "player_088"
+  },
+  {
+    "rank": 89,
+    "name": "Tyrone Tracy Jr.",
+    "position": "RB",
+    "team": "NYG",
+    "projected_pts": 220.0,
+    "tier": 3,
+    "sleeper_id": "player_089"
+  },
+  {
+    "rank": 90,
+    "name": "Rico Dowdle",
+    "position": "RB",
+    "team": "CAR",
+    "projected_pts": 218.0,
+    "tier": 3,
+    "sleeper_id": "player_090"
+  },
+  {
+    "rank": 91,
+    "name": "Stefon Diggs",
+    "position": "WR",
+    "team": "NE",
+    "projected_pts": 218.0,
+    "tier": 3,
+    "sleeper_id": "player_091"
+  },
+  {
+    "rank": 92,
+    "name": "Tony Pollard",
+    "position": "RB",
+    "team": "TEN",
+    "projected_pts": 215.0,
+    "tier": 3,
+    "sleeper_id": "player_092"
+  },
+  {
+    "rank": 93,
+    "name": "Christian Watson",
+    "position": "WR",
+    "team": "GB",
+    "projected_pts": 215.0,
+    "tier": 3,
+    "sleeper_id": "player_093"
+  },
+  {
+    "rank": 94,
+    "name": "Tank Bigsby",
+    "position": "RB",
+    "team": "JAC",
+    "projected_pts": 212.0,
+    "tier": 3,
+    "sleeper_id": "player_094"
+  },
+  {
+    "rank": 95,
+    "name": "Wan'Dale Robinson",
+    "position": "WR",
+    "team": "NYG",
+    "projected_pts": 212.0,
+    "tier": 3,
+    "sleeper_id": "player_095"
+  },
+  {
+    "rank": 96,
+    "name": "TreVeyon Henderson",
+    "position": "RB",
+    "team": "NE",
+    "projected_pts": 210.0,
+    "tier": 3,
+    "sleeper_id": "player_096"
+  },
+  {
+    "rank": 97,
+    "name": "DJ Chark",
+    "position": "WR",
+    "team": "LAC",
+    "projected_pts": 210.0,
+    "tier": 3,
+    "sleeper_id": "player_097"
+  },
+  {
+    "rank": 98,
+    "name": "Tyler Warren",
+    "position": "RB",
+    "team": "IND",
+    "projected_pts": 208.0,
+    "tier": 3,
+    "sleeper_id": "player_098"
+  },
+  {
+    "rank": 99,
+    "name": "Calvin Ridley",
+    "position": "WR",
+    "team": "TEN",
+    "projected_pts": 208.0,
+    "tier": 4,
+    "sleeper_id": "player_099"
+  },
+  {
+    "rank": 100,
+    "name": "Jerome Ford",
+    "position": "RB",
+    "team": "CLE",
+    "projected_pts": 205.0,
+    "tier": 3,
+    "sleeper_id": "player_100"
+  },
+  {
+    "rank": 101,
+    "name": "Pat Freiermuth",
+    "position": "TE",
+    "team": "PIT",
+    "projected_pts": 205.0,
+    "tier": 3,
+    "sleeper_id": "player_101"
+  },
+  {
+    "rank": 102,
+    "name": "Luther Burden III",
+    "position": "WR",
+    "team": "CHI",
+    "projected_pts": 205.0,
+    "tier": 4,
+    "sleeper_id": "player_102"
+  },
+  {
+    "rank": 103,
+    "name": "Bucky Irving",
+    "position": "RB",
+    "team": "TB",
+    "projected_pts": 202.0,
+    "tier": 3,
+    "sleeper_id": "player_103"
+  },
+  {
+    "rank": 104,
+    "name": "Rashod Bateman",
+    "position": "WR",
+    "team": "BAL",
+    "projected_pts": 202.0,
+    "tier": 4,
+    "sleeper_id": "player_104"
+  },
+  {
+    "rank": 105,
+    "name": "Isaac Guerendo",
+    "position": "RB",
+    "team": "SF",
+    "projected_pts": 200.0,
+    "tier": 3,
+    "sleeper_id": "player_105"
+  },
+  {
+    "rank": 106,
+    "name": "Travis Kelce",
+    "position": "TE",
+    "team": "KC",
+    "projected_pts": 200.0,
+    "tier": 3,
+    "sleeper_id": "player_106"
+  },
+  {
+    "rank": 107,
+    "name": "Tutu Atwell",
+    "position": "WR",
+    "team": "LAR",
+    "projected_pts": 200.0,
+    "tier": 4,
+    "sleeper_id": "player_107"
+  },
+  {
+    "rank": 108,
+    "name": "Ray Davis",
+    "position": "RB",
+    "team": "BUF",
+    "projected_pts": 198.0,
+    "tier": 3,
+    "sleeper_id": "player_108"
+  },
+  {
+    "rank": 109,
+    "name": "Keon Coleman",
+    "position": "WR",
+    "team": "BUF",
+    "projected_pts": 198.0,
+    "tier": 4,
+    "sleeper_id": "player_109"
+  },
+  {
+    "rank": 110,
+    "name": "Jake Ferguson",
+    "position": "TE",
+    "team": "DAL",
+    "projected_pts": 195.0,
+    "tier": 3,
+    "sleeper_id": "player_110"
+  },
+  {
+    "rank": 111,
+    "name": "Zach Charbonnet",
+    "position": "RB",
+    "team": "SEA",
+    "projected_pts": 195.0,
+    "tier": 4,
+    "sleeper_id": "player_111"
+  },
+  {
+    "rank": 112,
+    "name": "Adonai Mitchell",
+    "position": "WR",
+    "team": "IND",
+    "projected_pts": 195.0,
+    "tier": 4,
+    "sleeper_id": "player_112"
+  },
+  {
+    "rank": 113,
+    "name": "Khalil Herbert",
+    "position": "RB",
+    "team": "CIN",
+    "projected_pts": 192.0,
+    "tier": 4,
+    "sleeper_id": "player_113"
+  },
+  {
+    "rank": 114,
+    "name": "Dalton Kincaid",
+    "position": "TE",
+    "team": "BUF",
+    "projected_pts": 190.0,
+    "tier": 3,
+    "sleeper_id": "player_114"
+  },
+  {
+    "rank": 115,
+    "name": "Audric Estime",
+    "position": "RB",
+    "team": "DEN",
+    "projected_pts": 190.0,
+    "tier": 4,
+    "sleeper_id": "player_115"
+  },
+  {
+    "rank": 116,
+    "name": "Darius Slayton",
+    "position": "WR",
+    "team": "NYG",
+    "projected_pts": 190.0,
+    "tier": 4,
+    "sleeper_id": "player_116"
+  },
+  {
+    "rank": 117,
+    "name": "Evan Pryor",
+    "position": "RB",
+    "team": "CLE",
+    "projected_pts": 188.0,
+    "tier": 4,
+    "sleeper_id": "player_117"
+  },
+  {
+    "rank": 118,
+    "name": "Jaylen Warren",
+    "position": "RB",
+    "team": "PIT",
+    "projected_pts": 188.0,
+    "tier": 4,
+    "sleeper_id": "player_118"
+  },
+  {
+    "rank": 119,
+    "name": "Carson Steele",
+    "position": "RB",
+    "team": "JAC",
+    "projected_pts": 185.0,
+    "tier": 4,
+    "sleeper_id": "player_119"
+  },
+  {
+    "rank": 120,
+    "name": "Kimani Vidal",
+    "position": "RB",
+    "team": "PHI",
+    "projected_pts": 185,
+    "tier": 5,
+    "sleeper_id": "player_120"
+  },
+  {
+    "rank": 121,
+    "name": "Tyjae Spears",
+    "position": "RB",
+    "team": "TEN",
+    "projected_pts": 185.0,
+    "tier": 4,
+    "sleeper_id": "player_121"
+  },
+  {
+    "rank": 122,
+    "name": "Dallas Goedert",
+    "position": "TE",
+    "team": "PHI",
+    "projected_pts": 180.0,
+    "tier": 4,
+    "sleeper_id": "player_122"
+  },
+  {
+    "rank": 123,
+    "name": "Josh Downs",
+    "position": "WR",
+    "team": "IND",
+    "projected_pts": 178.0,
+    "tier": 4,
+    "sleeper_id": "player_123"
+  },
+  {
+    "rank": 124,
+    "name": "Ricky Pearsall",
+    "position": "WR",
+    "team": "SF",
+    "projected_pts": 175.0,
+    "tier": 4,
+    "sleeper_id": "player_124"
+  },
+  {
+    "rank": 125,
+    "name": "Juwan Johnson",
+    "position": "TE",
+    "team": "NO",
+    "projected_pts": 175.0,
+    "tier": 4,
+    "sleeper_id": "player_125"
+  },
+  {
+    "rank": 126,
+    "name": "Tyler Goodson",
+    "position": "RB",
+    "team": "IND",
+    "projected_pts": 175,
+    "tier": 5,
+    "sleeper_id": "player_126"
+  },
+  {
+    "rank": 127,
+    "name": "Khalil Shakir",
+    "position": "WR",
+    "team": "BUF",
+    "projected_pts": 172.0,
+    "tier": 4,
+    "sleeper_id": "player_127"
+  },
+  {
+    "rank": 128,
+    "name": "Trey Benson",
+    "position": "RB",
+    "team": "ARI",
+    "projected_pts": 172,
+    "tier": 5,
+    "sleeper_id": "player_128"
+  },
+  {
+    "rank": 129,
+    "name": "Rome Odunze",
+    "position": "WR",
+    "team": "CHI",
+    "projected_pts": 170.0,
+    "tier": 4,
+    "sleeper_id": "player_129"
+  },
+  {
+    "rank": 130,
+    "name": "Theo Johnson",
+    "position": "TE",
+    "team": "NYG",
+    "projected_pts": 170.0,
+    "tier": 4,
+    "sleeper_id": "player_130"
+  },
+  {
+    "rank": 131,
+    "name": "Braelon Allen",
+    "position": "RB",
+    "team": "NYJ",
+    "projected_pts": 168,
+    "tier": 5,
+    "sleeper_id": "player_131"
+  },
+  {
+    "rank": 132,
+    "name": "Jermaine Burton",
+    "position": "WR",
+    "team": "CIN",
+    "projected_pts": 165.0,
+    "tier": 4,
+    "sleeper_id": "player_132"
+  },
+  {
+    "rank": 133,
+    "name": "Kendre Miller",
+    "position": "RB",
+    "team": "NO",
+    "projected_pts": 165,
+    "tier": 5,
+    "sleeper_id": "player_133"
+  },
+  {
+    "rank": 134,
+    "name": "Noah Fant",
+    "position": "TE",
+    "team": "SEA",
+    "projected_pts": 165,
+    "tier": 5,
+    "sleeper_id": "player_134"
+  },
+  {
+    "rank": 135,
+    "name": "Ja'Lynn Polk",
+    "position": "WR",
+    "team": "NE",
+    "projected_pts": 162.0,
+    "tier": 4,
+    "sleeper_id": "player_135"
+  },
+  {
+    "rank": 136,
+    "name": "Tyrion Davis-Price",
+    "position": "RB",
+    "team": "PHI",
+    "projected_pts": 162,
+    "tier": 5,
+    "sleeper_id": "player_136"
+  },
+  {
+    "rank": 137,
+    "name": "Mike Williams",
+    "position": "WR",
+    "team": "PIT",
+    "projected_pts": 160.0,
+    "tier": 4,
+    "sleeper_id": "player_137"
+  },
+  {
+    "rank": 138,
+    "name": "Keaton Mitchell",
+    "position": "RB",
+    "team": "BAL",
+    "projected_pts": 160,
+    "tier": 5,
+    "sleeper_id": "player_138"
+  },
+  {
+    "rank": 139,
+    "name": "Mike Gesicki",
+    "position": "TE",
+    "team": "CIN",
+    "projected_pts": 160,
+    "tier": 5,
+    "sleeper_id": "player_139"
+  },
+  {
+    "rank": 140,
+    "name": "MarShawn Lloyd",
+    "position": "RB",
+    "team": "GB",
+    "projected_pts": 158,
+    "tier": 5,
+    "sleeper_id": "player_140"
+  },
+  {
+    "rank": 141,
+    "name": "Josh Palmer",
+    "position": "WR",
+    "team": "LAC",
+    "projected_pts": 155,
+    "tier": 5,
+    "sleeper_id": "player_141"
+  },
+  {
+    "rank": 142,
+    "name": "Cade Otton",
+    "position": "TE",
+    "team": "TB",
+    "projected_pts": 155,
+    "tier": 5,
+    "sleeper_id": "player_142"
+  },
+  {
+    "rank": 143,
+    "name": "Dylan Laube",
+    "position": "RB",
+    "team": "LV",
+    "projected_pts": 152,
+    "tier": 5,
+    "sleeper_id": "player_143"
+  },
+  {
+    "rank": 144,
+    "name": "Tyler Conklin",
+    "position": "TE",
+    "team": "NYJ",
+    "projected_pts": 150,
+    "tier": 5,
+    "sleeper_id": "player_144"
+  },
+  {
+    "rank": 145,
+    "name": "Taysom Hill",
+    "position": "TE",
+    "team": "NO",
+    "projected_pts": 145,
+    "tier": 5,
+    "sleeper_id": "player_145"
+  },
+  {
+    "rank": 146,
+    "name": "Isaiah Likely",
+    "position": "TE",
+    "team": "BAL",
+    "projected_pts": 140,
+    "tier": 5,
+    "sleeper_id": "player_146"
+  },
+  {
+    "rank": 147,
+    "name": "Tucker Kraft",
+    "position": "TE",
+    "team": "GB",
+    "projected_pts": 135,
+    "tier": 5,
+    "sleeper_id": "player_147"
+  },
+  {
+    "rank": 148,
+    "name": "Jalen McMillan",
+    "position": "WR",
+    "team": "TB",
+    "projected_pts": 130,
+    "tier": 5,
+    "sleeper_id": "player_148"
+  },
+  {
+    "rank": 149,
+    "name": "Zach Ertz",
+    "position": "TE",
+    "team": "WAS",
+    "projected_pts": 130,
+    "tier": 5,
+    "sleeper_id": "player_149"
+  },
+  {
+    "rank": 150,
+    "name": "Hayden Hurst",
+    "position": "TE",
+    "team": "LAC",
+    "projected_pts": 125,
+    "tier": 5,
+    "sleeper_id": "player_150"
+  },
+  {
+    "rank": 151,
+    "name": "Greg Dulcich",
+    "position": "TE",
+    "team": "DEN",
+    "projected_pts": 120,
+    "tier": 5,
+    "sleeper_id": "player_151"
+  },
+  {
+    "rank": 152,
+    "name": "Noah Gray",
+    "position": "TE",
+    "team": "KC",
+    "projected_pts": 115,
+    "tier": 5,
+    "sleeper_id": "player_152"
+  },
+  {
+    "rank": 153,
+    "name": "Luke Musgrave",
+    "position": "TE",
+    "team": "GB",
+    "projected_pts": 110,
+    "tier": 5,
+    "sleeper_id": "player_153"
+  },
+  {
+    "rank": 154,
+    "name": "Ben Sinnott",
+    "position": "TE",
+    "team": "WAS",
+    "projected_pts": 105,
+    "tier": 5,
+    "sleeper_id": "player_154"
+  },
+  {
+    "rank": 155,
+    "name": "Michael Mayer",
+    "position": "TE",
+    "team": "LV",
+    "projected_pts": 100,
+    "tier": 5,
+    "sleeper_id": "player_155"
+  }
+]
