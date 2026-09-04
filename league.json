@@ -1,7 +1,14 @@
 {
-  "league_name": "2O2 League — SAMPLE (replace with real order)",
+  "league_name": "BEEF",
   "teams": 10,
-  "bench_slots": 7,
-  "order": ["Team A", "Team B", "Team C", "Team D", "Team E", "Team F", "Team G", "Team H", "Team I", "Team J"],
-  "me": "Team D"
+  "qb_slots": 1,
+  "rb_slots": 2,
+  "wr_slots": 2,
+  "te_slots": 1,
+  "flex_slots": 1,
+  "k_slots": 1,
+  "dst_slots": 1,
+  "bench_slots": 6,
+  "order": ["Phil", "Adam", "Steve", "Jeff", "Ben", "Ricky", "Isaac", "Kevin", "Ric", "Todd"],
+  "me": "Ben"
 }

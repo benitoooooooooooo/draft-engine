@@ -9,6 +9,26 @@ cd /Users/benbrackett/draft-engine
 python3 src/draft_cli.py
 ```
 
+## Draft Order (league.json)
+
+`league.json` configures the session — no prompts at launch:
+
+```json
+{
+  "league_name": "BEEF",
+  "teams": 10,
+  "qb_slots": 1, "rb_slots": 2, "wr_slots": 2, "te_slots": 1,
+  "flex_slots": 1, "k_slots": 1, "dst_slots": 1, "bench_slots": 6,
+  "order": ["Phil", "Adam", "Steve", "Jeff", "Ben", "Ricky", "Isaac", "Kevin", "Ric", "Todd"],
+  "me": "Ben"
+}
+```
+
+`order` = snake slots 1..N (slot 1 = picks 1 & 20 in a 10-team 15-round).
+`me` = your team name, exact match. Slot changes auto-derive `roster_spots`.
+Any name not in the skill pool records as an off-pool placeholder (K/DST),
+and bare `pass` records one without guessing a name.
+
 ## 2026 Data
 
 `data/draft_pool.json` is built from **FantasyPros consensus ECR** (124 experts,

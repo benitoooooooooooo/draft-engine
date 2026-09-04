@@ -236,6 +236,13 @@ class DraftCLI:
                 self.state.make_pick(player)
                 self.engine = ValuationEngine(self.state)  # recalc
                 print(f"\n  ✓ Pick recorded: {player.name} ({player.position}) to {self.team_label(self.state.current_team())}")
+            elif name_query:
+                from engine import Player as P
+                ph = P(rank=9999, name=name_query.title(), position='?', team='?',
+                       projected_pts=0.0, tier=9, sleeper_id=f"off_{self.state.current_pick}")
+                self.state.make_pick(ph)
+                self.engine = ValuationEngine(self.state)
+                print(f"\n  ✓ Recorded off-pool pick: {ph.name} ({self.team_label(self.state.current_team())})")
             else:
                 print(f"\n  ✗ Player not found: {name_query}")
             return True
@@ -248,8 +255,27 @@ class DraftCLI:
                 self.state.make_pick(player)
                 self.engine = ValuationEngine(self.state)
                 print(f"\n  ✓ Opponent pick: {player.name} ({player.position}) to {self.team_label(self.state.current_team())}")
+            elif name_query:
+                # Off-pool pick (Kicker/DST/etc) — placeholder keeps the snake advancing
+                from engine import Player as P
+                ph = P(rank=9999, name=name_query.title(), position='?', team='?',
+                       projected_pts=0.0, tier=9, sleeper_id=f"off_{self.state.current_pick}")
+                self.state.make_pick(ph)
+                self.engine = ValuationEngine(self.state)
+                print(f"\n  ✓ Recorded off-pool pick: {ph.name} to {self.team_label(self.state.current_team())} (K/DST?)")
             else:
-                print(f"\n  ✗ Player not found: {name_query}")
+                print(f"\n  ✗ Usage: o <name>")
+            return True
+        
+        elif cmd == 'pass':
+            # Record an off-pool pick (your K/DST round) for the team on the clock
+            name_query = 'Kicker' if self.state.current_pick % 2 else 'DST'
+            from engine import Player as P
+            ph = P(rank=9999, name=name_query, position='?', team='?',
+                   projected_pts=0.0, tier=9, sleeper_id=f"off_{self.state.current_pick}")
+            self.state.make_pick(ph)
+            self.engine = ValuationEngine(self.state)
+            print(f"\n  ✓ Pass recorded for {self.team_label(self.state.current_team())} (clock advanced)")
             return True
         
         elif cmd == 'rb' or cmd == 'rbs':
