@@ -255,15 +255,17 @@ class DraftCLI:
             cands = [(2, p) for p in list(seen.values())[:3]]
         if not cands:
             return None
-        # ambiguity guard: different last names -> ask for more specific input
-        last_names = {p.name.split()[-1].lower() for _, p in cands}
-        if len(last_names) > 1 and len(q_tokens) < 2:
-            opts = sorted(cands, key=lambda x: x[0])[:3]
-            print("  ⚠ Ambiguous — refine the name:")
-            for _, p in opts:
-                print(f"      {p.name} ({p.position} {p.team})")
-            return None
-        cands.sort(key=lambda x: (x[0], -x[1].projected_pts))
+        # ambiguity: resolve by engine value (the one the engine ranks highest)
+        if len(cands) > 1:
+            try:
+                cands.sort(key=lambda x: (-x[0], -self.engine.pick_value(x[1], self.my_team_id)['total_score']))
+            except Exception:
+                cands.sort(key=lambda x: (x[0], -x[1].projected_pts))
+            if len({p.name for _, p in cands}) > 1:
+                names = ', '.join(p.name for _, p in cands[:3])
+                print(f"  ⚠ '{query}' matched multiple ({names}) — using {cands[0][1].name}")
+        else:
+            cands.sort(key=lambda x: (x[0], -x[1].projected_pts))
         return cands[0][1]
     
     def process_command(self, cmd: str) -> bool:

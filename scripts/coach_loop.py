@@ -59,29 +59,31 @@ def load_config():
     return config, order, my_team
 
 
-def build_state(config, pool):
+def read_export():
+    """Read draft_state.json; raise on mid-write so the caller retries the SAME tick."""
+    with open(STATE_PATH) as f:
+        return json.load(f)
+
+
+def build_state(config, pool, export):
     """Reconstruct from the export the CLI writes on every pick."""
-    if not os.path.exists(STATE_PATH):
-        return DraftState(config, list(pool), {}), {}
-    try:
-        with open(STATE_PATH) as f:
-            export = json.load(f)
-    except (json.JSONDecodeError, ValueError):
-        return None, None  # mid-write; try next tick
+    from engine import Player as P
     name_map = {p.name: p for p in pool}
     state = DraftState(config, list(pool), {})
     state.rosters = {i: Roster(i) for i in range(config.teams)}
-    for pk in export.get('picks_made', []):
+    for i, pk in enumerate(export.get('picks_made', [])):
+        tid = pk['team'] - 1
         pl = name_map.get(pk['player'])
         if pl is None:
-            # off-pool placeholder pick (K/DST)
-            continue
-        tid = pk['team'] - 1
+            # off-pool placeholder pick (K/DST): occupy roster slot, advance snake
+            pl = P(rank=9999, name=pk['player'], position='?', team='?',
+                   projected_pts=0.0, tier=9, sleeper_id=f"off_{i}")
+        else:
+            state.available = [p for p in state.available if p.sleeper_id != pl.sleeper_id]
         state.rosters[tid].players.append(pl)
         state.picks_made.append((tid, pl))
-        state.available = [p for p in state.available if p.sleeper_id != pl.sleeper_id]
         state.current_pick += 1
-    return state, export
+    return state
 
 
 def fmt_next_picks(team, teams, rounds=2):
@@ -155,9 +157,10 @@ def build_notes(state, export, config, order, my_team):
 
 def main():
     config, order, my_team = load_config()
-    pool = load_pool = load_draft_pool(POOL_PATH)
-    print(f"coach_loop watching {STATE_PATH} (team: {order[my_team] if order else my_team})")
+    pool = load_draft_pool(POOL_PATH)
+    print(f"coach_loop watching {STATE_PATH} (team: {order[my_team] if order else my_team})", flush=True)
     last_mtime = 0.0
+    err_log = os.path.join(ROOT, 'coach_loop.err.log')
     while True:
         try:
             mtime = os.path.getmtime(STATE_PATH)
@@ -165,14 +168,22 @@ def main():
             time.sleep(0.5)
             continue
         if mtime > last_mtime:
-            last_mtime = mtime
-            state, export = build_state(config, pool)
-            if state is not None:
+            try:
+                export = read_export()          # raises mid-write; retry same mtime next tick
+                state = build_state(config, pool, export)
                 notes = build_notes(state, export, config, order, my_team)
                 with open(NOTES_PATH, 'w') as f:
                     f.write(notes + "\n")
                 with open(LOG_PATH, 'a') as f:
                     f.write(notes + "\n" + "-" * 70 + "\n")
+                last_mtime = mtime              # only consume mtime on success
+            except json.JSONDecodeError:
+                pass                            # torn read; try again in 0.1s
+            except Exception:
+                import traceback
+                with open(err_log, 'a') as f:
+                    f.write(f"{datetime.datetime.now()}\n{traceback.format_exc()}\n")
+                last_mtime = mtime              # don't spin on a poison state
         time.sleep(0.1)
 
 
