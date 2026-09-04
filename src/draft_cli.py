@@ -13,12 +13,22 @@ from engine import (
 
 
 class DraftCLI:
-    def __init__(self, config: DraftConfig, player_pool: List[Player]):
+    def __init__(self, config: DraftConfig, player_pool: List[Player], league: Optional[dict] = None):
         self.config = config
         self.state = DraftState(config, player_pool, {})
         self.engine = ValuationEngine(self.state)
         self.my_team_id = 0
         self._notes_mtime = 0
+        # league order: {"order": [team names by slot 1..N], "me": "team name"}
+        self.league = league or {}
+        self.team_names = self.league.get('order', [])
+        if self.team_names and self.league.get('me') in self.team_names:
+            self.my_team_id = self.team_names.index(self.league['me'])
+            self.state.my_team = self.my_team_id
+
+    def team_label(self, team_id: int) -> str:
+        name = self.team_names[team_id] if team_id < len(self.team_names) else None
+        return f"Team {team_id + 1}" + (f" ({name})" if name else "")
 
     def display_coach_notes(self):
         """Show Hermes agent notes if coach_notes.txt changed since last check."""
@@ -43,7 +53,7 @@ class DraftCLI:
     def display_header(self):
         print("\n" + "="*80)
         print(f"  2O2 DRAFT ENGINE - Round {self.state.current_pick // self.config.teams + 1}, Pick {self.state.current_pick + 1}")
-        print(f"  On the clock: Team {self.state.current_team() + 1} {'<<< YOU' if self.state.current_team() == self.my_team_id else ''}")
+        print(f"  On the clock: {self.team_label(self.state.current_team())} {'<<< YOU' if self.state.current_team() == self.my_team_id else ''}")
         print("="*80)
     
     def display_roster(self, team_id: Optional[int] = None):
@@ -225,7 +235,7 @@ class DraftCLI:
             if player:
                 self.state.make_pick(player)
                 self.engine = ValuationEngine(self.state)  # recalc
-                print(f"\n  ✓ Pick recorded: {player.name} ({player.position}) to Team {self.state.current_team() + 1}")
+                print(f"\n  ✓ Pick recorded: {player.name} ({player.position}) to {self.team_label(self.state.current_team())}")
             else:
                 print(f"\n  ✗ Player not found: {name_query}")
             return True
@@ -237,7 +247,7 @@ class DraftCLI:
             if player:
                 self.state.make_pick(player)
                 self.engine = ValuationEngine(self.state)
-                print(f"\n  ✓ Opponent pick: {player.name} ({player.position}) to Team {self.state.current_team() + 1}")
+                print(f"\n  ✓ Opponent pick: {player.name} ({player.position}) to {self.team_label(self.state.current_team())}")
             else:
                 print(f"\n  ✗ Player not found: {name_query}")
             return True
@@ -290,7 +300,7 @@ class DraftCLI:
             if player:
                 self.state.make_pick(player)
                 self.engine = ValuationEngine(self.state)
-                print(f"\n  ✓ Pick recorded: {player.name} ({player.position}) to Team {self.state.current_team() + 1}")
+                print(f"\n  ✓ Pick recorded: {player.name} ({player.position}) to {self.team_label(self.state.current_team())}")
             else:
                 print(f"\n  Unknown command: {cmd}. Type 'help' for commands.")
             return True
@@ -318,19 +328,26 @@ class DraftCLI:
     ╚═══════════════════════════════════════════════════════════════╝
         """)
         
-        # Set your draft position
-        while True:
-            try:
-                pos = input(f"  Enter your draft position (1-{self.config.teams}): ").strip()
-                self.my_team_id = int(pos) - 1
-                if 0 <= self.my_team_id < self.config.teams:
-                    self.state.my_team = self.my_team_id
-                    break
-            except ValueError:
-                pass
-            print(f"  Invalid position. Enter 1-{self.config.teams}.")
+        # Set your draft position (skipped if league.json defines "me")
+        if not self.team_names:
+            while True:
+                try:
+                    pos = input(f"  Enter your draft position (1-{self.config.teams}): ").strip()
+                    self.my_team_id = int(pos) - 1
+                    if 0 <= self.my_team_id < self.config.teams:
+                        self.state.my_team = self.my_team_id
+                        break
+                except ValueError:
+                    pass
+                print(f"  Invalid position. Enter 1-{self.config.teams}.")
         
-        print(f"\n  You are Team {self.my_team_id + 1}")
+        if self.team_names:
+            print("  LEAGUE SNAKE ORDER (slot 1 picks 1/20, slot 2 picks 2/19, ...):")
+            for i, name in enumerate(self.team_names):
+                mark = "  <<< YOU" if i == self.my_team_id else ""
+                print(f"    {i + 1:>2}. {name}{mark}")
+            print()
+        print(f"\n  You are {self.team_label(self.my_team_id)}")
         print(f"  Type 'help' for commands\n")
         
         while self.state.current_pick < self.config.total_picks:
@@ -348,7 +365,7 @@ class DraftCLI:
             else:
                 self.display_draft_board(6)
                 self.display_coach_notes()
-                cmd = input(f"\n  Opponent {self.state.current_team() + 1} picks (or 'pick <name>' to steal) >>> ").strip()
+                cmd = input(f"\n  {self.team_label(self.state.current_team())} picks (or 'pick <name>' to steal) >>> ").strip()
                 if not self.process_command(cmd):
                     break
         
@@ -363,7 +380,24 @@ def main():
     players = load_draft_pool('data/draft_pool.json')
     config = DraftConfig()
     
-    cli = DraftCLI(config, players)
+    league = {}
+    if os.path.exists('league.json'):
+        league = json.load(open('league.json'))
+        if league.get('teams'):
+            config.teams = league['teams']
+        for key in ('qb_slots', 'rb_slots', 'wr_slots', 'te_slots',
+                    'flex_slots', 'bench_slots', 'k_slots', 'dst_slots'):
+            if key in league:
+                setattr(config, key, league[key])
+        # keep roster size consistent unless explicitly set
+        if 'roster_spots' in league:
+            config.roster_spots = league['roster_spots']
+        else:
+            config.roster_spots = (config.qb_slots + config.rb_slots + config.wr_slots +
+                                   config.te_slots + config.flex_slots + config.k_slots +
+                                   config.dst_slots + config.bench_slots)
+    
+    cli = DraftCLI(config, players, league)
     cli.run()
 
 

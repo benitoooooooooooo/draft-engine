@@ -1,0 +1,7 @@
+{
+  "league_name": "2O2 League — SAMPLE (replace with real order)",
+  "teams": 10,
+  "bench_slots": 7,
+  "order": ["Team A", "Team B", "Team C", "Team D", "Team E", "Team F", "Team G", "Team H", "Team I", "Team J"],
+  "me": "Team D"
+}
