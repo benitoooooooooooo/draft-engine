@@ -18,6 +18,27 @@ class DraftCLI:
         self.state = DraftState(config, player_pool, {})
         self.engine = ValuationEngine(self.state)
         self.my_team_id = 0
+        self._notes_mtime = 0
+
+    def display_coach_notes(self):
+        """Show Hermes agent notes if coach_notes.txt changed since last check."""
+        import os, time
+        path = os.path.join(os.path.dirname(__file__), '..', 'coach_notes.txt')
+        try:
+            mtime = os.path.getmtime(path)
+        except OSError:
+            return
+        if mtime <= self._notes_mtime:
+            return
+        self._notes_mtime = mtime
+        with open(path) as f:
+            notes = f.read().strip()
+        if notes:
+            print("\n  " + "="*62)
+            print("  📝 COACH NOTES (Hermes):")
+            for line in notes.splitlines():
+                print(f"    {line}")
+            print("  " + "="*62)
         
     def display_header(self):
         print("\n" + "="*80)
@@ -303,6 +324,7 @@ class DraftCLI:
                 pos = input(f"  Enter your draft position (1-{self.config.teams}): ").strip()
                 self.my_team_id = int(pos) - 1
                 if 0 <= self.my_team_id < self.config.teams:
+                    self.state.my_team = self.my_team_id
                     break
             except ValueError:
                 pass
@@ -318,12 +340,14 @@ class DraftCLI:
                 self.display_roster()
                 self.display_recommendations()
                 self.display_draft_board(6)
+                self.display_coach_notes()
                 
                 cmd = input(f"\n  YOUR PICK >>> ").strip()
                 if not self.process_command(cmd):
                     break
             else:
                 self.display_draft_board(6)
+                self.display_coach_notes()
                 cmd = input(f"\n  Opponent {self.state.current_team() + 1} picks (or 'pick <name>' to steal) >>> ").strip()
                 if not self.process_command(cmd):
                     break

@@ -9,6 +9,34 @@ cd /Users/benbrackett/draft-engine
 python3 src/draft_cli.py
 ```
 
+## 2026 Data
+
+`data/draft_pool.json` is built from **FantasyPros consensus ECR** (124 experts,
+refreshed daily) × **ffdraft.app 2026 PPR projections** (ESPN+CBS+NFL average),
+joined by name with Sleeper IDs. To refresh before a draft:
+
+```bash
+python3 scripts/update_pool.py --top 200 --out data/draft_pool_2026.json
+cp data/draft_pool_2026.json data/draft_pool.json
+```
+
+## Live Agent Coaching
+
+Two channels connect the draft to the Hermes agent:
+
+1. **`src/draft_watch.py`** — read-only companion. Reconstructs the board from
+   the CLI's `draft_state.json` export (written on every pick) and answers
+   `status | recs | top <pos> | run | need <pos> | compare A B | json`.
+   The agent runs this on its own copy while you type picks in your terminal.
+
+2. **`coach_notes.txt`** — the agent writes advice here; the CLI displays it
+   as a "📝 COACH NOTES" box right before each pick prompt when it changes.
+
+Session flow: you run `draft_cli.py`, feed it every pick as it happens, and
+ping the agent (Telegram/chat) between rounds — it inspects the exported
+state, runs `draft_watch.py`, and answers or pushes notes back into your
+terminal via the notes file.
+
 ## Features
 
 - **Dynamic VORP**: Value Over Replacement Player recalculates after every pick

@@ -18,6 +18,14 @@ class Player:
     projected_pts: float
     tier: int
     sleeper_id: str
+    # 2026 pool extras (FantasyPros consensus + ffdraft projections)
+    ecr_rank: int = 0
+    pos_rank: str = ""
+    rank_min: int = 0
+    rank_max: int = 0
+    rank_std: float = 0.0
+    owned_pct: float = 0.0
+    bye: int = 0
 
 @dataclass
 class DraftConfig:
@@ -76,6 +84,7 @@ class DraftState:
     rosters: Dict[int, Roster]
     picks_made: List[Tuple[int, Player]] = field(default_factory=list)
     current_pick: int = 0
+    my_team: int = 0
     
     def __post_init__(self):
         if not self.rosters:
@@ -127,6 +136,7 @@ class DraftState:
         state = {
             'current_pick': self.current_pick,
             'current_team': self.current_team(),
+            'my_team': getattr(self, 'my_team', 0),
             'total_picks': self.config.total_picks,
             'picks_made': [
                 {

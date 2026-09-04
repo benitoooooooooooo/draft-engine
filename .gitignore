@@ -1,0 +1,4 @@
+.venv/
+draft_state.json
+draft_summary.txt
+data/*_backup.json
