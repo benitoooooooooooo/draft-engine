@@ -71,7 +71,7 @@ class DraftCLI:
         by_pos = {pos: [] for pos in pos_order}
         
         for p in roster.players:
-            by_pos[p.position].append(p)
+            by_pos.setdefault(p.position, []).append(p)
         
         # Starters
         starters_shown = 0
@@ -212,14 +212,59 @@ class DraftCLI:
             print(f"  {len(self.state.picks_made) - last_n + i:<6} {team + 1:<6} {p.name:<22} {p.position:<4} {p.team:<5}")
     
     def search_player(self, query: str) -> Optional[Player]:
-        """Find player by name substring"""
-        query = query.lower()
-        matches = [p for p in self.state.available if query in p.name.lower()]
-        if not matches:
+        """Find player by name — substring, initial, or fuzzy (typo-tolerant).
+        Ambiguous matches across DIFFERENT last names are rejected with candidates
+        instead of silently picking one."""
+        import re as _re
+        import difflib
+        def norm(s):
+            s = s.lower().replace("'", '').replace('\u2019', '')
+            return _re.sub(r'[^a-z0-9 ]', ' ', s).split()
+        q_tokens = norm(query)
+        if not q_tokens:
             return None
-        # Return best match (highest projected)
-        matches.sort(key=lambda x: -x.projected_pts)
-        return matches[0]
+        qn = ' '.join(q_tokens)
+        cands = []
+        for p in self.state.available:
+            pn = ' '.join(norm(p.name))
+            pt = norm(p.name)
+            exact = pn == qn
+            substr = qn in pn or (len(q_tokens) == 1 and any(t.startswith(q_tokens[0]) for t in pt))
+            # initials: "j gibbs", "gibbs j", "jb" won't match but "j gibbs" will
+            init = False
+            if len(q_tokens) == 2 and len(pt) >= 2:
+                a, b = q_tokens
+                init = ((pt[-1].startswith(a) and pt[0][0] == b[0]) or
+                        (pt[-1].startswith(b) and pt[0][0] == a[0]))
+            if exact:
+                return p
+            if substr or init:
+                cands.append((0 if exact else 1, p))
+        # fuzzy fallback for typos (only when nothing matched) — per-token and full-name
+        if not cands and len(qn) > 3:
+            names = {' '.join(norm(p.name)): p for p in self.state.available}
+            seen = {}
+            for fname, p in names.items():
+                if difflib.get_close_matches(qn, [fname], cutoff=0.75):
+                    seen[p.sleeper_id] = p
+                    continue
+                for t in norm(p.name):
+                    if len(t) > 3 and difflib.get_close_matches(qn, [t], cutoff=0.8):
+                        seen[p.sleeper_id] = p
+                        break
+            cands = [(2, p) for p in list(seen.values())[:3]]
+        if not cands:
+            return None
+        # ambiguity guard: different last names -> ask for more specific input
+        last_names = {p.name.split()[-1].lower() for _, p in cands}
+        if len(last_names) > 1 and len(q_tokens) < 2:
+            opts = sorted(cands, key=lambda x: x[0])[:3]
+            print("  ⚠ Ambiguous — refine the name:")
+            for _, p in opts:
+                print(f"      {p.name} ({p.position} {p.team})")
+            return None
+        cands.sort(key=lambda x: (x[0], -x[1].projected_pts))
+        return cands[0][1]
     
     def process_command(self, cmd: str) -> bool:
         """Process a user command. Returns True if draft should continue."""
