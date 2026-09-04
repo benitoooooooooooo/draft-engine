@@ -129,6 +129,20 @@ class DraftState:
         self.available = [p for p in self.available if p.sleeper_id != player.sleeper_id]
         self.current_pick += 1
         self._export_state()
+
+    def undo_last_pick(self):
+        """Remove the most recent pick; player returns to the pool, clock rewinds."""
+        if not self.picks_made:
+            return None
+        team, player = self.picks_made.pop()
+        roster = self.rosters[team]
+        roster.players = [p for p in roster.players if p.sleeper_id != player.sleeper_id]
+        if not str(player.sleeper_id).startswith('off_'):
+            self.available.append(player)
+            self.available.sort(key=lambda p: p.rank)
+        self.current_pick = max(0, self.current_pick - 1)
+        self._export_state()
+        return team, player
     
     def _export_state(self):
         """Write current draft state to JSON for Hermes monitoring"""

@@ -314,6 +314,17 @@ class DraftCLI:
                 print(f"\n  ✗ Usage: o <name>")
             return True
         
+        elif cmd == 'undo':
+            # Remove the last recorded pick (typo rescue)
+            result = self.state.undo_last_pick()
+            self.engine = ValuationEngine(self.state)
+            if result:
+                team, player = result
+                print(f"\n  ↩ Undid: {player.name} ({player.position}) from {self.team_label(team)} — pick {self.state.current_pick + 1} is up again")
+            else:
+                print("\n  Nothing to undo.")
+            return True
+        
         elif cmd == 'pass':
             # Record an off-pool pick (your K/DST round) for the team on the clock
             name_query = 'Kicker' if self.state.current_pick % 2 else 'DST'
@@ -383,6 +394,8 @@ class DraftCLI:
   COMMANDS:
     pick <name>     - You draft a player (or just type the name)
     opponent <name> - Record opponent's pick
+    undo            - Remove the last pick (typo fix — that team picks again)
+    pass            - Record K/DST pick for whoever is on the clock
     rb / wr / te / qb - Show top available at that position
     recs            - Show your recommendations
     roster          - Show your roster
