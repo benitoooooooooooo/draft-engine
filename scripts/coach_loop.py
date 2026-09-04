@@ -150,8 +150,32 @@ def build_notes(state, export, config, order, my_team):
         if rc['balance_issues']:
             lines.append(f"⚠ roster: {', '.join(rc['balance_issues'])}")
     if on_you:
+        # positional options board: best value at each position still needed
+        wide = engine.get_recommendations(my_team, 60)
+        needs = roster.needs(c)
+        best_score = wide[0]['total_score'] if wide else 0
+        by_pos = {}
+        for r in wide:
+            pos = r['player'].position
+            by_pos.setdefault(pos, [])
+            if len(by_pos[pos]) < 2:
+                by_pos[pos].append(r)
         lines.append("")
-        lines.append(f">>> YOU ARE ON THE CLOCK ({pick_in_round + 1} of {c.teams} in round) — take #1 unless the note below overrides")
+        lines.append("OPTIONS BY POSITION (cost vs overall #1):")
+        for pos in ('RB', 'WR', 'TE', 'QB'):
+            rows = by_pos.get(pos, [])
+            if not rows:
+                continue
+            need = f" (need {needs.get(pos, 0)})" if needs.get(pos, 0) else ""
+            parts = []
+            for r in rows:
+                p = r['player']
+                cost = r['total_score'] - best_score
+                flag = "⛔" if r['dropoff_risk'] > 0.7 and needs.get(pos, 0) else ""
+                parts.append(f"{p.name} {p.position} PPR{p.projected_pts:.0f} ({cost:+.0f}){flag}")
+            lines.append(f"  {pos}{need}: " + " | ".join(parts))
+        lines.append("")
+        lines.append(f">>> YOU ARE ON THE CLOCK ({pick_in_round + 1} of {c.teams} in round) — take #1 unless the note above overrides")
     return "\n".join(lines)
 
 

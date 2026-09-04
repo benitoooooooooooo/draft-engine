@@ -147,6 +147,39 @@ class DraftCLI:
             
             print(f"  {i:<6} {p.name:<22} {p.position:<4} {p.team:<5} {r['vorp']:<7.1f} {r['urgency']:<8.2f} {r['total_score']:<7.1f} {note}")
         
+        # Positional options board: best available at each value position
+        wide = self.engine.get_recommendations(self.my_team_id, 60)
+        needs = self.state.rosters[self.my_team_id].needs(self.config)
+        best_score = wide[0]['total_score'] if wide else 0
+        by_pos = {}
+        for r in wide:
+            pos = r['player'].position
+            if pos not in by_pos:
+                by_pos[pos] = []
+            if len(by_pos[pos]) < 2:
+                by_pos[pos].append(r)
+        print(f"\n  ▸ BEST AT EACH POSITION (cost = engine score vs overall #1)")
+        print(f"  {'Pos':<5}{'':<2}{'Player':<22}{'Team':<5}{'PPR':>7}{'VORP':>8}{'Score':>8}{'Cost':>7}  Note")
+        for pos in ('RB', 'WR', 'TE', 'QB'):
+            need_n = needs.get(pos, 0)
+            tag = "  NEED" if need_n else ""
+            rows = by_pos.get(pos, [])
+            if not rows:
+                print(f"  {pos:<5}  {'(none available)':<22}")
+                continue
+            for j, r in enumerate(rows):
+                p = r['player']
+                cost = r['total_score'] - best_score
+                if j == 0 and r['dropoff_risk'] > 0.7 and need_n:
+                    dn = "⛔ won't last to next pick"
+                elif j == 1 and rows and cost > -25:
+                    dn = "≈ same value as #1 pick overall" if abs(cost) < 25 else ""
+                else:
+                    dn = ""
+                label = f"{pos:<5}" if j == 0 else "     "
+                print(f"  {label}{'1.' if j==0 else '2.'} {p.name:<22}{p.team:<5}{p.projected_pts:>7.0f}{r['vorp']:>8.1f}"
+                      f"{r['total_score']:>8.1f}{cost:>+7.0f}  {dn}{tag if j==0 else ''}")
+        
         # Show opponent pressure summary
         opp_needs = self.engine._aggregate_opponent_needs(self.my_team_id)
         if opp_needs:
