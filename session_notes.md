@@ -1,11 +1,8 @@
-# Draft session corrections (agent context — do not trust CLI attributions)
+# Draft session notes (BEEF 2026 — draft complete Sep 4)
 
-- CLI draft attribution is scrambled (one feed miss around picks 14-16). Pool of
-  drafted players is authoritative; team assignment is NOT.
-- Ben's REAL roster (confirmed live): CMC, De'Von Achane (R2 — NOT Henry),
-  McBride (TE), Rice, BTJ, Jayden Daniels (just taken).
-- That means Derrick Henry belongs to Isaac (T7), and Ben's RB pair is
-  CMC + Achane = better than recorded (306 vs 278 PPR).
-- Plan from here: WR depth with next picks — Evans/Metcalf tier; then
-  handcuff/flex, Kittle TE2 only in dead rounds; Watson (QB) final round as
-  meme QB2 — never draft backup-QB depth. No more RB needed (Achane starts).
+- RESOLVED: the "Henry on Ben" confusion was the CLI attribution off-by-one —
+  every confirmation named the team AFTER the pick. Fixed in e2a79c6.
+- Ben's REAL roster: CMC, Achane, Rice, BTJ, MHJ, Metcalf, Sutton, Worthy,
+  McBride, Goedert, Daniels, Fairbairn (+ Jeudy/DST/Watson in final rounds).
+- Lessons logged in code: clock resync command, off-pool placeholders,
+  350-player pool, k/dst reference. See README.
