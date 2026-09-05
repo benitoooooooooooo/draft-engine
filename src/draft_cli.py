@@ -312,17 +312,18 @@ class DraftCLI:
             # Pick a player
             name_query = cmd.split(' ', 1)[1] if ' ' in cmd else ''
             player = self.search_player(name_query)
+            clocked = self.team_label(self.state.current_team())  # capture BEFORE make_pick advances
             if player:
                 self.state.make_pick(player)
                 self.engine = ValuationEngine(self.state)  # recalc
-                print(f"\n  ✓ Pick recorded: {player.name} ({player.position}) to {self.team_label(self.state.current_team())}")
+                print(f"\n  ✓ Pick recorded: {player.name} ({player.position}) to {clocked}")
             elif name_query:
                 from engine import Player as P
                 ph = P(rank=9999, name=name_query.title(), position='?', team='?',
                        projected_pts=0.0, tier=9, sleeper_id=f"off_{self.state.current_pick}")
                 self.state.make_pick(ph)
                 self.engine = ValuationEngine(self.state)
-                print(f"\n  ✓ Recorded off-pool pick: {ph.name} ({self.team_label(self.state.current_team())})")
+                print(f"\n  ✓ Recorded off-pool pick: {ph.name} ({clocked})")
             else:
                 print(f"\n  ✗ Player not found: {name_query}")
             return True
@@ -331,10 +332,11 @@ class DraftCLI:
             # Opponent pick
             name_query = cmd.split(' ', 1)[1] if ' ' in cmd else ''
             player = self.search_player(name_query)
+            clocked = self.team_label(self.state.current_team())  # capture BEFORE advance
             if player:
                 self.state.make_pick(player)
                 self.engine = ValuationEngine(self.state)
-                print(f"\n  ✓ Opponent pick: {player.name} ({player.position}) to {self.team_label(self.state.current_team())}")
+                print(f"\n  ✓ Opponent pick: {player.name} ({player.position}) to {clocked}")
             elif name_query:
                 # Off-pool pick (Kicker/DST/etc) — placeholder keeps the snake advancing
                 from engine import Player as P
@@ -342,11 +344,65 @@ class DraftCLI:
                        projected_pts=0.0, tier=9, sleeper_id=f"off_{self.state.current_pick}")
                 self.state.make_pick(ph)
                 self.engine = ValuationEngine(self.state)
-                print(f"\n  ✓ Recorded off-pool pick: {ph.name} to {self.team_label(self.state.current_team())} (K/DST?)")
+                print(f"\n  ✓ Recorded off-pool pick: {ph.name} to {clocked} (K/DST?)")
             else:
                 print(f"\n  ✗ Usage: o <name>")
             return True
         
+        elif cmd in ('k', 'kickers', 'dst', 'defense'):
+            print(f"\n  K/DST aren't ranked in the pool — just record them directly:")
+            print(f"    o <name>   (opponent's K/DST)   or   pick <name>   (yours)")
+            print(f"  Kicker ECR ref (scraped today): Fairbairn/Dicker/Little/Myers top the board.")
+            return True
+        
+        elif cmd.startswith('clock '):
+            # Resync the snake after a missed/extra pick feed:
+            #   clock <team name or number>  -> fast-forward to that team's next slot
+            # Skipped slots get '???' placeholders (names lost, pool stays correct).
+            target = cmd.split(' ', 1)[1].strip().lower()
+            tid = None
+            if target.isdigit():
+                tid = int(target) - 1
+            elif self.team_names:
+                for i, nm in enumerate(self.team_names):
+                    if target == nm.lower() or target in nm.lower():
+                        tid = i
+                        break
+            if tid is None or not (0 <= tid < self.config.teams):
+                print("\n  Unknown team. Usage: clock <team name|number>")
+                return True
+            cp = self.state.current_pick
+            cand = None
+            for c in range(cp, self.config.total_picks):
+                saved = self.state.current_pick
+                self.state.current_pick = c
+                who = self.state.current_team()
+                self.state.current_pick = saved
+                if who == tid:
+                    cand = c
+                    break
+            if cand is None:
+                print("\n  That team has no remaining picks.")
+                return True
+            from engine import Player as P
+            advanced = 0
+            for c in range(cp, cand):
+                saved = self.state.current_pick
+                self.state.current_pick = c
+                owner = self.state.current_team()
+                self.state.current_pick = saved
+                ph = P(rank=9999, name='???', position='?', team='?',
+                       projected_pts=0.0, tier=9, sleeper_id=f"skipped_{c}")
+                self.state.rosters[owner].players.append(ph)
+                self.state.picks_made.append((owner, ph))
+                self.state.current_pick = c + 1
+                advanced += 1
+            self.state._export_state()
+            self.engine = ValuationEngine(self.state)
+            skip_msg = f" ({advanced} slot{'s' if advanced != 1 else ''} filled with ???)" if advanced else ""
+            print(f"\n  ⏱ Clock resynced: pick {self.state.current_pick + 1} = {self.team_label(tid)}{skip_msg}")
+            return True
+
         elif cmd == 'undo':
             # Remove the last recorded pick (typo rescue)
             result = self.state.undo_last_pick()
@@ -360,13 +416,14 @@ class DraftCLI:
         
         elif cmd == 'pass':
             # Record an off-pool pick (your K/DST round) for the team on the clock
+            clocked = self.team_label(self.state.current_team())
             name_query = 'Kicker' if self.state.current_pick % 2 else 'DST'
             from engine import Player as P
             ph = P(rank=9999, name=name_query, position='?', team='?',
                    projected_pts=0.0, tier=9, sleeper_id=f"off_{self.state.current_pick}")
             self.state.make_pick(ph)
             self.engine = ValuationEngine(self.state)
-            print(f"\n  ✓ Pass recorded for {self.team_label(self.state.current_team())} (clock advanced)")
+            print(f"\n  ✓ Pass recorded for {clocked} (clock advanced)")
             return True
         
         elif cmd == 'rb' or cmd == 'rbs':
@@ -414,10 +471,20 @@ class DraftCLI:
         else:
             # Try to interpret as a pick
             player = self.search_player(cmd)
+            clocked = self.team_label(self.state.current_team())
             if player:
                 self.state.make_pick(player)
                 self.engine = ValuationEngine(self.state)
-                print(f"\n  ✓ Pick recorded: {player.name} ({player.position}) to {self.team_label(self.state.current_team())}")
+                print(f"\n  ✓ Pick recorded: {player.name} ({player.position}) to {clocked}")
+            elif len(cmd) > 2 and ' ' not in cmd[:2] and cmd not in ('h', 'b'):
+                # Not in skill pool (late-round RB/WR, K, DST) — record placeholder
+                from engine import Player as P
+                ph = P(rank=9999, name=cmd.title(), position='?', team='?',
+                       projected_pts=0.0, tier=9, sleeper_id=f"off_{self.state.current_pick}")
+                self.state.make_pick(ph)
+                self.engine = ValuationEngine(self.state)
+                print(f"\n  ✓ {ph.name} not in skill pool — recorded as off-pool pick to {clocked}")
+                print(f"    (wrong? type 'undo' then the correct name)")
             else:
                 print(f"\n  Unknown command: {cmd}. Type 'help' for commands.")
             return True
@@ -425,10 +492,14 @@ class DraftCLI:
     def display_help(self):
         print("""
   COMMANDS:
-    pick <name>     - You draft a player (or just type the name)
+    pick <name>     - You draft a player (or just type the name; unknown
+                      names record as off-pool picks so nothing stalls)
     opponent <name> - Record opponent's pick
     undo            - Remove the last pick (typo fix — that team picks again)
+    clock <team>    - Resync after a missed feed: fast-forward to that team's
+                      next slot (skipped slots become ??? placeholders)
     pass            - Record K/DST pick for whoever is on the clock
+    k / dst         - Kicker/defense board reference
     rb / wr / te / qb - Show top available at that position
     recs            - Show your recommendations
     roster          - Show your roster

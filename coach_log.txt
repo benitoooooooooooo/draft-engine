@@ -1,0 +1,2101 @@
+BEEF draft · 18:10:36 · R1P2 (1/150) · last: Jahmyr Gibbs (RB) → Phil
+Your next picks: #5, #16
+
+Engine says:
+  1. Bijan Robinson RB ATL · PPR 370 · VORP 178 (experts 1-5)  👀 opponents need this
+  2. Puka Nacua WR LAR · PPR 365 · VORP 147 (experts 2-11)  👀 opponents need this
+  3. Christian McCaffrey RB SF · PPR 326 · VORP 134 (experts 3-28 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:10:36 · R1P2 (1/150) · last: Jahmyr Gibbs (RB) → Phil
+Your next picks: #5, #16
+
+Engine says:
+  1. Bijan Robinson RB ATL · PPR 370 · VORP 178 (experts 1-5)  👀 opponents need this
+  2. Puka Nacua WR LAR · PPR 365 · VORP 147 (experts 2-11)  👀 opponents need this
+  3. Christian McCaffrey RB SF · PPR 326 · VORP 134 (experts 3-28 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:10:49 · R1P3 (2/150) · last: Bijan Robinson (RB) → Adam
+Your next picks: #5, #16
+
+Engine says:
+  1. Puka Nacua WR LAR · PPR 365 · VORP 147 (experts 2-11)  👀 opponents need this
+  2. Christian McCaffrey RB SF · PPR 326 · VORP 134 (experts 3-28 CONTESTED)  👀 opponents need this
+  3. Jonathan Taylor RB IND · PPR 323 · VORP 131 (experts 2-23 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:10:49 · R1P3 (2/150) · last: Bijan Robinson (RB) → Adam
+Your next picks: #5, #16
+
+Engine says:
+  1. Puka Nacua WR LAR · PPR 365 · VORP 147 (experts 2-11)  👀 opponents need this
+  2. Christian McCaffrey RB SF · PPR 326 · VORP 134 (experts 3-28 CONTESTED)  👀 opponents need this
+  3. Jonathan Taylor RB IND · PPR 323 · VORP 131 (experts 2-23 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:11:12 · R1P4 (3/150) · last: Ja'Marr Chase (WR) → Steve
+Your next picks: #5, #16
+
+Engine says:
+  1. Puka Nacua WR LAR · PPR 365 · VORP 151 (experts 2-11)  👀 opponents need this
+  2. Christian McCaffrey RB SF · PPR 326 · VORP 134 (experts 3-28 CONTESTED)  👀 opponents need this
+  3. Jaxon Smith-Njigba WR SEA · PPR 350 · VORP 136 (experts 2-10)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:11:12 · R1P4 (3/150) · last: Ja'Marr Chase (WR) → Steve
+Your next picks: #5, #16
+
+Engine says:
+  1. Puka Nacua WR LAR · PPR 365 · VORP 151 (experts 2-11)  👀 opponents need this
+  2. Christian McCaffrey RB SF · PPR 326 · VORP 134 (experts 3-28 CONTESTED)  👀 opponents need this
+  3. Jaxon Smith-Njigba WR SEA · PPR 350 · VORP 136 (experts 2-10)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:11:38 · R1P5 (4/150) · last: Jonathan Taylor (RB) → Jeff
+Your next picks: #5, #16
+
+Engine says:
+  1. Puka Nacua WR LAR · PPR 365 · VORP 151 (experts 2-11)  👀 opponents need this
+  2. Christian McCaffrey RB SF · PPR 326 · VORP 138 (experts 3-28 CONTESTED)  👀 opponents need this
+  3. Jaxon Smith-Njigba WR SEA · PPR 350 · VORP 136 (experts 2-10)  👀 opponents need this
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB (need 2): Christian McCaffrey RB PPR326 (-10) | Saquon Barkley RB PPR312 (-24)
+  WR (need 2): Puka Nacua WR PPR365 (+0) | Jaxon Smith-Njigba WR PPR350 (-14)
+  TE (need 1): Trey McBride TE PPR263 (-60) | Brock Bowers TE PPR256 (-67)
+  QB (need 1): Josh Allen QB PPR366 (-98) | Lamar Jackson QB PPR364 (-99)
+
+>>> YOU ARE ON THE CLOCK (5 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:11:38 · R1P5 (4/150) · last: Jonathan Taylor (RB) → Jeff
+Your next picks: #5, #16
+
+Engine says:
+  1. Puka Nacua WR LAR · PPR 365 · VORP 151 (experts 2-11)  👀 opponents need this
+  2. Christian McCaffrey RB SF · PPR 326 · VORP 138 (experts 3-28 CONTESTED)  👀 opponents need this
+  3. Jaxon Smith-Njigba WR SEA · PPR 350 · VORP 136 (experts 2-10)  👀 opponents need this
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB (need 2): Christian McCaffrey RB PPR326 (-10) | Saquon Barkley RB PPR312 (-24)
+  WR (need 2): Puka Nacua WR PPR365 (+0) | Jaxon Smith-Njigba WR PPR350 (-14)
+  TE (need 1): Trey McBride TE PPR263 (-60) | Brock Bowers TE PPR256 (-67)
+  QB (need 1): Josh Allen QB PPR366 (-98) | Lamar Jackson QB PPR364 (-99)
+
+>>> YOU ARE ON THE CLOCK (5 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:11:49 · R1P6 (5/150) · last: Christian McCaffrey (RB) → Ben
+Your next picks: #16
+⚠ RB RUN: 4/8 recent. Best RB left: James Cook III
+
+Engine says:
+  1. Puka Nacua WR LAR · PPR 365 · VORP 151 (experts 2-11)  👀 opponents need this
+  2. Jaxon Smith-Njigba WR SEA · PPR 350 · VORP 136 (experts 2-10)  👀 opponents need this
+  3. Saquon Barkley RB PHI · PPR 312 · VORP 133 (experts 8-37 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:11:49 · R1P6 (5/150) · last: Christian McCaffrey (RB) → Ben
+Your next picks: #16
+⚠ RB RUN: 4/8 recent. Best RB left: James Cook III
+
+Engine says:
+  1. Puka Nacua WR LAR · PPR 365 · VORP 151 (experts 2-11)  👀 opponents need this
+  2. Jaxon Smith-Njigba WR SEA · PPR 350 · VORP 136 (experts 2-10)  👀 opponents need this
+  3. Saquon Barkley RB PHI · PPR 312 · VORP 133 (experts 8-37 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:12:43 · R1P7 (6/150) · last: Amon-Ra St. Brown (WR) → Ricky
+Your next picks: #16
+⚠ RB RUN: 4/8 recent. Best RB left: James Cook III
+
+Engine says:
+  1. Puka Nacua WR LAR · PPR 365 · VORP 151 (experts 2-11)  👀 opponents need this
+  2. Jaxon Smith-Njigba WR SEA · PPR 350 · VORP 137 (experts 2-10)  👀 opponents need this
+  3. Saquon Barkley RB PHI · PPR 312 · VORP 133 (experts 8-37 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:12:43 · R1P7 (6/150) · last: Amon-Ra St. Brown (WR) → Ricky
+Your next picks: #16
+⚠ RB RUN: 4/8 recent. Best RB left: James Cook III
+
+Engine says:
+  1. Puka Nacua WR LAR · PPR 365 · VORP 151 (experts 2-11)  👀 opponents need this
+  2. Jaxon Smith-Njigba WR SEA · PPR 350 · VORP 137 (experts 2-10)  👀 opponents need this
+  3. Saquon Barkley RB PHI · PPR 312 · VORP 133 (experts 8-37 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:13:11 · R1P8 (7/150) · last: Jaxon Smith-Njigba (WR) → Isaac
+Your next picks: #16
+⚠ RB RUN: 4/8 recent. Best RB left: James Cook III
+
+Engine says:
+  1. Puka Nacua WR LAR · PPR 365 · VORP 153 (experts 2-11)  👀 opponents need this
+  2. Saquon Barkley RB PHI · PPR 312 · VORP 133 (experts 8-37 CONTESTED)  👀 opponents need this
+  3. De'Von Achane RB MIA · PPR 307 · VORP 128 (experts 8-47 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:13:11 · R1P8 (7/150) · last: Jaxon Smith-Njigba (WR) → Isaac
+Your next picks: #16
+⚠ RB RUN: 4/8 recent. Best RB left: James Cook III
+
+Engine says:
+  1. Puka Nacua WR LAR · PPR 365 · VORP 153 (experts 2-11)  👀 opponents need this
+  2. Saquon Barkley RB PHI · PPR 312 · VORP 133 (experts 8-37 CONTESTED)  👀 opponents need this
+  3. De'Von Achane RB MIA · PPR 307 · VORP 128 (experts 8-47 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:13:24 · R1P9 (8/150) · last: Puka Nacua (WR) → Kevin
+Your next picks: #16
+⚠ RB RUN: 4/8 recent. Best RB left: James Cook III
+
+Engine says:
+  1. Saquon Barkley RB PHI · PPR 312 · VORP 133 (experts 8-37 CONTESTED)  👀 opponents need this
+  2. De'Von Achane RB MIA · PPR 307 · VORP 128 (experts 8-47 CONTESTED)  👀 opponents need this
+  3. Chase Brown RB CIN · PPR 286 · VORP 106 (experts 8-42 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:13:24 · R1P9 (8/150) · last: Puka Nacua (WR) → Kevin
+Your next picks: #16
+⚠ RB RUN: 4/8 recent. Best RB left: James Cook III
+
+Engine says:
+  1. Saquon Barkley RB PHI · PPR 312 · VORP 133 (experts 8-37 CONTESTED)  👀 opponents need this
+  2. De'Von Achane RB MIA · PPR 307 · VORP 128 (experts 8-47 CONTESTED)  👀 opponents need this
+  3. Chase Brown RB CIN · PPR 286 · VORP 106 (experts 8-42 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:13:55 · R1P10 (9/150) · last: Saquon Barkley (RB) → Ric
+Your next picks: #16
+⚠ RB RUN: 4/8 recent. Best RB left: James Cook III
+
+Engine says:
+  1. De'Von Achane RB MIA · PPR 307 · VORP 129 (experts 8-47 CONTESTED)  👀 opponents need this
+  2. Chase Brown RB CIN · PPR 286 · VORP 108 (experts 8-42 CONTESTED)  👀 opponents need this
+  3. Ashton Jeanty RB LV · PPR 284 · VORP 107 (experts 8-57 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:13:55 · R1P10 (9/150) · last: Saquon Barkley (RB) → Ric
+Your next picks: #16
+⚠ RB RUN: 4/8 recent. Best RB left: James Cook III
+
+Engine says:
+  1. De'Von Achane RB MIA · PPR 307 · VORP 129 (experts 8-47 CONTESTED)  👀 opponents need this
+  2. Chase Brown RB CIN · PPR 286 · VORP 108 (experts 8-42 CONTESTED)  👀 opponents need this
+  3. Ashton Jeanty RB LV · PPR 284 · VORP 107 (experts 8-57 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:13:59 · R2P1 (10/150) · last: James Cook III (RB) → Todd
+Your next picks: #16
+⚠ WR RUN: 4/8 recent. Best WR left: CeeDee Lamb
+
+Engine says:
+  1. De'Von Achane RB MIA · PPR 307 · VORP 133 (experts 8-47 CONTESTED)  👀 opponents need this
+  2. Chase Brown RB CIN · PPR 286 · VORP 112 (experts 8-42 CONTESTED)  👀 opponents need this
+  3. Ashton Jeanty RB LV · PPR 284 · VORP 110 (experts 8-57 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:13:59 · R2P1 (10/150) · last: James Cook III (RB) → Todd
+Your next picks: #16
+⚠ WR RUN: 4/8 recent. Best WR left: CeeDee Lamb
+
+Engine says:
+  1. De'Von Achane RB MIA · PPR 307 · VORP 133 (experts 8-47 CONTESTED)  👀 opponents need this
+  2. Chase Brown RB CIN · PPR 286 · VORP 112 (experts 8-42 CONTESTED)  👀 opponents need this
+  3. Ashton Jeanty RB LV · PPR 284 · VORP 110 (experts 8-57 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:14:02 · R2P2 (11/150) · last: Chase Brown (RB) → Todd
+Your next picks: #16
+⚠ RB RUN: 5/8 recent. Best RB left: Derrick Henry
+
+Engine says:
+  1. De'Von Achane RB MIA · PPR 307 · VORP 143 (experts 8-47 CONTESTED)  👀 opponents need this
+  2. Ashton Jeanty RB LV · PPR 284 · VORP 120 (experts 8-57 CONTESTED)  👀 opponents need this
+  3. Derrick Henry RB BAL · PPR 280 · VORP 116 (experts 8-33 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:14:02 · R2P2 (11/150) · last: Chase Brown (RB) → Todd
+Your next picks: #16
+⚠ RB RUN: 5/8 recent. Best RB left: Derrick Henry
+
+Engine says:
+  1. De'Von Achane RB MIA · PPR 307 · VORP 143 (experts 8-47 CONTESTED)  👀 opponents need this
+  2. Ashton Jeanty RB LV · PPR 284 · VORP 120 (experts 8-57 CONTESTED)  👀 opponents need this
+  3. Derrick Henry RB BAL · PPR 280 · VORP 116 (experts 8-33 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:14:59 · R2P3 (12/150) · last: Kenneth Walker III (RB) → Ric
+Your next picks: #16
+⚠ RB RUN: 5/8 recent. Best RB left: Derrick Henry
+
+Engine says:
+  1. De'Von Achane RB MIA · PPR 307 · VORP 144 (experts 8-47 CONTESTED)  👀 opponents need this
+  2. Ashton Jeanty RB LV · PPR 284 · VORP 121 (experts 8-57 CONTESTED)  👀 opponents need this
+  3. Derrick Henry RB BAL · PPR 280 · VORP 116 (experts 8-33 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:14:59 · R2P3 (12/150) · last: Kenneth Walker III (RB) → Ric
+Your next picks: #16
+⚠ RB RUN: 5/8 recent. Best RB left: Derrick Henry
+
+Engine says:
+  1. De'Von Achane RB MIA · PPR 307 · VORP 144 (experts 8-47 CONTESTED)  👀 opponents need this
+  2. Ashton Jeanty RB LV · PPR 284 · VORP 121 (experts 8-57 CONTESTED)  👀 opponents need this
+  3. Derrick Henry RB BAL · PPR 280 · VORP 116 (experts 8-33 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:15:07 · R2P4 (13/150) · last: CeeDee Lamb (WR) → Kevin
+Your next picks: #16
+⚠ WR RUN: 4/8 recent. Best WR left: Justin Jefferson
+
+Engine says:
+  1. De'Von Achane RB MIA · PPR 307 · VORP 144 (experts 8-47 CONTESTED)  👀 opponents need this
+  2. Ashton Jeanty RB LV · PPR 284 · VORP 121 (experts 8-57 CONTESTED)  👀 opponents need this
+  3. Derrick Henry RB BAL · PPR 280 · VORP 116 (experts 8-33 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:15:07 · R2P4 (13/150) · last: CeeDee Lamb (WR) → Kevin
+Your next picks: #16
+⚠ WR RUN: 4/8 recent. Best WR left: Justin Jefferson
+
+Engine says:
+  1. De'Von Achane RB MIA · PPR 307 · VORP 144 (experts 8-47 CONTESTED)  👀 opponents need this
+  2. Ashton Jeanty RB LV · PPR 284 · VORP 121 (experts 8-57 CONTESTED)  👀 opponents need this
+  3. Derrick Henry RB BAL · PPR 280 · VORP 116 (experts 8-33 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:15:21 · R2P5 (14/150) · last: De'Von Achane (RB) → Isaac
+Your next picks: #16
+⚠ RB RUN: 5/8 recent. Best RB left: Derrick Henry
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 128 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Derrick Henry RB BAL · PPR 280 · VORP 123 (experts 8-33 CONTESTED)  👀 opponents need this
+  3. Josh Jacobs RB GB · PPR 278 · VORP 122 (experts 23-364 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:15:21 · R2P5 (14/150) · last: De'Von Achane (RB) → Isaac
+Your next picks: #16
+⚠ RB RUN: 5/8 recent. Best RB left: Derrick Henry
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 128 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Derrick Henry RB BAL · PPR 280 · VORP 123 (experts 8-33 CONTESTED)  👀 opponents need this
+  3. Josh Jacobs RB GB · PPR 278 · VORP 122 (experts 23-364 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:15:38 · R2P6 (15/150) · last: Omarion Hampton (RB) → Ricky
+Your next picks: #16
+⚠ RB RUN: 6/8 recent. Best RB left: Derrick Henry
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 131 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Derrick Henry RB BAL · PPR 280 · VORP 126 (experts 8-33 CONTESTED)  👀 opponents need this
+  3. Josh Jacobs RB GB · PPR 278 · VORP 125 (experts 23-364 CONTESTED)  👀 opponents need this
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB (need 1): Ashton Jeanty RB PPR284 (+0) | Derrick Henry RB PPR280 (-4)
+  WR (need 2): Justin Jefferson WR PPR313 (-33) | Malik Nabers WR PPR298 (-48)
+  TE (need 1): Trey McBride TE PPR263 (-44) | Brock Bowers TE PPR256 (-51)
+  QB (need 1): Josh Allen QB PPR366 (-81) | Lamar Jackson QB PPR364 (-82)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:15:38 · R2P6 (15/150) · last: Omarion Hampton (RB) → Ricky
+Your next picks: #16
+⚠ RB RUN: 6/8 recent. Best RB left: Derrick Henry
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 131 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Derrick Henry RB BAL · PPR 280 · VORP 126 (experts 8-33 CONTESTED)  👀 opponents need this
+  3. Josh Jacobs RB GB · PPR 278 · VORP 125 (experts 23-364 CONTESTED)  👀 opponents need this
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB (need 1): Ashton Jeanty RB PPR284 (+0) | Derrick Henry RB PPR280 (-4)
+  WR (need 2): Justin Jefferson WR PPR313 (-33) | Malik Nabers WR PPR298 (-48)
+  TE (need 1): Trey McBride TE PPR263 (-44) | Brock Bowers TE PPR256 (-51)
+  QB (need 1): Josh Allen QB PPR366 (-81) | Lamar Jackson QB PPR364 (-82)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:16:09 · R2P7 (16/150) · last: Derrick Henry (RB) → Ben
+⚠ RB RUN: 7/8 recent. Best RB left: Ashton Jeanty
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 137 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 131 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 113 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:16:10 · R2P7 (16/150) · last: Derrick Henry (RB) → Ben
+⚠ RB RUN: 7/8 recent. Best RB left: Ashton Jeanty
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 137 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 131 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 113 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:17:11 · R2P8 (17/150) · last: Kyren Williams (RB) → Jeff
+⚠ RB RUN: 7/8 recent. Best RB left: Ashton Jeanty
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:17:11 · R2P8 (17/150) · last: Kyren Williams (RB) → Jeff
+⚠ RB RUN: 7/8 recent. Best RB left: Ashton Jeanty
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:17:29 · R2P9 (18/150) · last: Nico Collins (WR) → Steve
+⚠ RB RUN: 6/8 recent. Best RB left: Ashton Jeanty
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:17:29 · R2P9 (18/150) · last: Nico Collins (WR) → Steve
+⚠ RB RUN: 6/8 recent. Best RB left: Ashton Jeanty
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:17:54 · R2P10 (19/150) · last: Justin Jefferson (WR) → Adam
+⚠ RB RUN: 5/8 recent. Best RB left: Ashton Jeanty
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:17:54 · R2P10 (19/150) · last: Justin Jefferson (WR) → Adam
+⚠ RB RUN: 5/8 recent. Best RB left: Ashton Jeanty
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:18:17 · R3P1 (20/150) · last: Chris Olave (WR) → Phil
+⚠ WR RUN: 4/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:18:17 · R3P1 (20/150) · last: Chris Olave (WR) → Phil
+⚠ WR RUN: 4/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:19:11 · R3P2 (21/150) · last: George Pickens (WR) → Phil
+⚠ RB RUN: 4/8 recent. Best RB left: Ashton Jeanty
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:19:11 · R3P2 (21/150) · last: George Pickens (WR) → Phil
+⚠ RB RUN: 4/8 recent. Best RB left: Ashton Jeanty
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:19:26 · R3P3 (22/150) · last: Tee Higgins (WR) → Adam
+⚠ WR RUN: 5/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:19:26 · R3P3 (22/150) · last: Tee Higgins (WR) → Adam
+⚠ WR RUN: 5/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:19:41 · R3P4 (23/150) · last: Brock Bowers (TE) → Steve
+⚠ WR RUN: 5/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:19:41 · R3P4 (23/150) · last: Brock Bowers (TE) → Steve
+⚠ WR RUN: 5/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:20:38 · R3P5 (24/150) · last: Drake London (WR) → Jeff
+⚠ WR RUN: 6/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Ashton Jeanty RB PPR284 (+0) | Josh Jacobs RB PPR278 (-6)
+  WR (need 2): Malik Nabers WR PPR298 (-28) | Rashee Rice WR PPR288 (-39)
+  TE (need 1): Trey McBride TE PPR263 (-39) | George Kittle TE PPR229 (-73)
+  QB (need 1): Josh Allen QB PPR366 (-82) | Lamar Jackson QB PPR364 (-84)
+
+>>> YOU ARE ON THE CLOCK (5 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:20:38 · R3P5 (24/150) · last: Drake London (WR) → Jeff
+⚠ WR RUN: 6/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Ashton Jeanty RB PPR284 (+0) | Josh Jacobs RB PPR278 (-6)
+  WR (need 2): Malik Nabers WR PPR298 (-28) | Rashee Rice WR PPR288 (-39)
+  TE (need 1): Trey McBride TE PPR263 (-39) | George Kittle TE PPR229 (-73)
+  QB (need 1): Josh Allen QB PPR366 (-82) | Lamar Jackson QB PPR364 (-84)
+
+>>> YOU ARE ON THE CLOCK (5 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:20:48 · R3P6 (25/150) · last: Trey McBride (TE) → Ben
+⚠ WR RUN: 6/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:20:48 · R3P6 (25/150) · last: Trey McBride (TE) → Ben
+⚠ WR RUN: 6/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 147 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 141 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 123 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:22:05 · R3P7 (26/150) · last: Javonte Williams (RB) → Ricky
+⚠ WR RUN: 5/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 155 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 149 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 132 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:22:05 · R3P7 (26/150) · last: Javonte Williams (RB) → Ricky
+⚠ WR RUN: 5/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 155 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 149 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 132 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:23:08 · R3P8 (27/150) · last: Cam Skattebo (RB) → Isaac
+⚠ WR RUN: 4/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 155 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 149 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 132 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:23:09 · R3P8 (27/150) · last: Cam Skattebo (RB) → Isaac
+⚠ WR RUN: 4/8 recent. Best WR left: A.J. Brown
+
+Engine says:
+  1. Ashton Jeanty RB LV · PPR 284 · VORP 155 (experts 8-57 CONTESTED)  👀 opponents need this
+  2. Josh Jacobs RB GB · PPR 278 · VORP 149 (experts 23-364 CONTESTED)  👀 opponents need this
+  3. Breece Hall RB NYJ · PPR 261 · VORP 132 (experts 24-55 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:23:11 · R3P9 (28/150) · last: Ashton Jeanty (RB) → Kevin
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 152 (experts 23-364 CONTESTED)  👀 opponents need this
+  2. Breece Hall RB NYJ · PPR 261 · VORP 135 (experts 24-55 CONTESTED)  👀 opponents need this
+  3. Bucky Irving RB TB · PPR 256 · VORP 130 (experts 37-82 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:23:11 · R3P9 (28/150) · last: Ashton Jeanty (RB) → Kevin
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 152 (experts 23-364 CONTESTED)  👀 opponents need this
+  2. Breece Hall RB NYJ · PPR 261 · VORP 135 (experts 24-55 CONTESTED)  👀 opponents need this
+  3. Bucky Irving RB TB · PPR 256 · VORP 130 (experts 37-82 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:24:05 · R3P10 (29/150) · last: A.J. Brown (WR) → Ric
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 152 (experts 23-364 CONTESTED)  👀 opponents need this
+  2. Breece Hall RB NYJ · PPR 261 · VORP 135 (experts 24-55 CONTESTED)  👀 opponents need this
+  3. Bucky Irving RB TB · PPR 256 · VORP 130 (experts 37-82 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:24:05 · R3P10 (29/150) · last: A.J. Brown (WR) → Ric
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 152 (experts 23-364 CONTESTED)  👀 opponents need this
+  2. Breece Hall RB NYJ · PPR 261 · VORP 135 (experts 24-55 CONTESTED)  👀 opponents need this
+  3. Bucky Irving RB TB · PPR 256 · VORP 130 (experts 37-82 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:24:45 · R4P1 (30/150) · last: DeVonta Smith (WR) → Todd
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 152 (experts 23-364 CONTESTED)  👀 opponents need this
+  2. Breece Hall RB NYJ · PPR 261 · VORP 135 (experts 24-55 CONTESTED)  👀 opponents need this
+  3. Bucky Irving RB TB · PPR 256 · VORP 130 (experts 37-82 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:24:45 · R4P1 (30/150) · last: DeVonta Smith (WR) → Todd
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 152 (experts 23-364 CONTESTED)  👀 opponents need this
+  2. Breece Hall RB NYJ · PPR 261 · VORP 135 (experts 24-55 CONTESTED)  👀 opponents need this
+  3. Bucky Irving RB TB · PPR 256 · VORP 130 (experts 37-82 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:25:26 · R4P2 (31/150) · last: Malik Nabers (WR) → Todd
+⚠ WR RUN: 4/8 recent. Best WR left: Zay Flowers
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 152 (experts 23-364 CONTESTED)  👀 opponents need this
+  2. Breece Hall RB NYJ · PPR 261 · VORP 135 (experts 24-55 CONTESTED)  👀 opponents need this
+  3. Bucky Irving RB TB · PPR 256 · VORP 130 (experts 37-82 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:25:26 · R4P2 (31/150) · last: Malik Nabers (WR) → Todd
+⚠ WR RUN: 4/8 recent. Best WR left: Zay Flowers
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 152 (experts 23-364 CONTESTED)  👀 opponents need this
+  2. Breece Hall RB NYJ · PPR 261 · VORP 135 (experts 24-55 CONTESTED)  👀 opponents need this
+  3. Bucky Irving RB TB · PPR 256 · VORP 130 (experts 37-82 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:26:15 · R4P3 (32/150) · last: Travis Etienne Jr. (RB) → Ric
+⚠ RB RUN: 4/8 recent. Best RB left: Breece Hall
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 158 (experts 23-364 CONTESTED)  👀 opponents need this
+  2. Breece Hall RB NYJ · PPR 261 · VORP 140 (experts 24-55 CONTESTED)  👀 opponents need this
+  3. Bucky Irving RB TB · PPR 256 · VORP 136 (experts 37-82 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:26:15 · R4P3 (32/150) · last: Travis Etienne Jr. (RB) → Ric
+⚠ RB RUN: 4/8 recent. Best RB left: Breece Hall
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 158 (experts 23-364 CONTESTED)  👀 opponents need this
+  2. Breece Hall RB NYJ · PPR 261 · VORP 140 (experts 24-55 CONTESTED)  👀 opponents need this
+  3. Bucky Irving RB TB · PPR 256 · VORP 136 (experts 37-82 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 18:26:36 · R4P4 (33/150) · last: Jeremiyah Love (RB) → Kevin
+⚠ RB RUN: 5/8 recent. Best RB left: Breece Hall
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 158 (experts 23-364 CONTESTED)
+  2. Breece Hall RB NYJ · PPR 261 · VORP 141 (experts 24-55 CONTESTED)
+  3. Bucky Irving RB TB · PPR 256 · VORP 137 (experts 37-82 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:26:36 · R4P4 (33/150) · last: Jeremiyah Love (RB) → Kevin
+⚠ RB RUN: 5/8 recent. Best RB left: Breece Hall
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 158 (experts 23-364 CONTESTED)
+  2. Breece Hall RB NYJ · PPR 261 · VORP 141 (experts 24-55 CONTESTED)
+  3. Bucky Irving RB TB · PPR 256 · VORP 137 (experts 37-82 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:27:09 · R4P5 (34/150) · last: Bucky Irving (RB) → Isaac
+⚠ RB RUN: 5/8 recent. Best RB left: Breece Hall
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 159 (experts 23-364 CONTESTED)
+  2. Breece Hall RB NYJ · PPR 261 · VORP 142 (experts 24-55 CONTESTED)
+  3. Alvin Kamara RB NO · PPR 255 · VORP 136 (experts 119-283 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:27:09 · R4P5 (34/150) · last: Bucky Irving (RB) → Isaac
+⚠ RB RUN: 5/8 recent. Best RB left: Breece Hall
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 159 (experts 23-364 CONTESTED)
+  2. Breece Hall RB NYJ · PPR 261 · VORP 142 (experts 24-55 CONTESTED)
+  3. Alvin Kamara RB NO · PPR 255 · VORP 136 (experts 119-283 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:27:51 · R4P6 (35/150) · last: Jaylen Waddle (WR) → Ricky
+⚠ RB RUN: 4/8 recent. Best RB left: Breece Hall
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 159 (experts 23-364 CONTESTED)
+  2. Breece Hall RB NYJ · PPR 261 · VORP 142 (experts 24-55 CONTESTED)
+  3. Alvin Kamara RB NO · PPR 255 · VORP 136 (experts 119-283 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Josh Jacobs RB PPR278 (+0) | Breece Hall RB PPR261 (-18)
+  WR (need 2): Rashee Rice WR PPR288 (-47) | Brian Thomas Jr. WR PPR281 (-54)
+  TE: George Kittle TE PPR229 (-89) | Colston Loveland TE PPR217 (-101)
+  QB (need 1): Josh Allen QB PPR366 (-87) | Lamar Jackson QB PPR364 (-88)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:27:51 · R4P6 (35/150) · last: Jaylen Waddle (WR) → Ricky
+⚠ RB RUN: 4/8 recent. Best RB left: Breece Hall
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 159 (experts 23-364 CONTESTED)
+  2. Breece Hall RB NYJ · PPR 261 · VORP 142 (experts 24-55 CONTESTED)
+  3. Alvin Kamara RB NO · PPR 255 · VORP 136 (experts 119-283 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Josh Jacobs RB PPR278 (+0) | Breece Hall RB PPR261 (-18)
+  WR (need 2): Rashee Rice WR PPR288 (-47) | Brian Thomas Jr. WR PPR281 (-54)
+  TE: George Kittle TE PPR229 (-89) | Colston Loveland TE PPR217 (-101)
+  QB (need 1): Josh Allen QB PPR366 (-87) | Lamar Jackson QB PPR364 (-88)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:27:56 · R4P7 (36/150) · last: Rashee Rice (WR) → Ben
+⚠ WR RUN: 5/8 recent. Best WR left: Zay Flowers
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 159 (experts 23-364 CONTESTED)
+  2. Breece Hall RB NYJ · PPR 261 · VORP 142 (experts 24-55 CONTESTED)
+  3. Alvin Kamara RB NO · PPR 255 · VORP 136 (experts 119-283 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:27:56 · R4P7 (36/150) · last: Rashee Rice (WR) → Ben
+⚠ WR RUN: 5/8 recent. Best WR left: Zay Flowers
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 159 (experts 23-364 CONTESTED)
+  2. Breece Hall RB NYJ · PPR 261 · VORP 142 (experts 24-55 CONTESTED)
+  3. Alvin Kamara RB NO · PPR 255 · VORP 136 (experts 119-283 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:29:34 · R4P8 (37/150) · last: Zay Flowers (WR) → Jeff
+⚠ WR RUN: 5/8 recent. Best WR left: Tetairoa McMillan
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 159 (experts 23-364 CONTESTED)
+  2. Breece Hall RB NYJ · PPR 261 · VORP 142 (experts 24-55 CONTESTED)
+  3. Alvin Kamara RB NO · PPR 255 · VORP 136 (experts 119-283 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:29:34 · R4P8 (37/150) · last: Zay Flowers (WR) → Jeff
+⚠ WR RUN: 5/8 recent. Best WR left: Tetairoa McMillan
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 159 (experts 23-364 CONTESTED)
+  2. Breece Hall RB NYJ · PPR 261 · VORP 142 (experts 24-55 CONTESTED)
+  3. Alvin Kamara RB NO · PPR 255 · VORP 136 (experts 119-283 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:30:21 · R4P9 (38/150) · last: Breece Hall (RB) → Steve
+⚠ WR RUN: 4/8 recent. Best WR left: Tetairoa McMillan
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 161 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 138 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 111 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:30:21 · R4P9 (38/150) · last: Breece Hall (RB) → Steve
+⚠ WR RUN: 4/8 recent. Best WR left: Tetairoa McMillan
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 161 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 138 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 111 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:30:42 · R4P10 (39/150) · last: D'Andre Swift (RB) → Adam
+⚠ RB RUN: 5/8 recent. Best RB left: Quinshon Judkins
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:30:42 · R4P10 (39/150) · last: D'Andre Swift (RB) → Adam
+⚠ RB RUN: 5/8 recent. Best RB left: Quinshon Judkins
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:30:46 · R5P1 (40/150) · last: Colston Loveland (TE) → Phil
+⚠ RB RUN: 4/8 recent. Best RB left: Quinshon Judkins
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:30:46 · R5P1 (40/150) · last: Colston Loveland (TE) → Phil
+⚠ RB RUN: 4/8 recent. Best RB left: Quinshon Judkins
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:31:29 · R5P2 (41/150) · last: Josh Allen (QB) → Phil
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:31:29 · R5P2 (41/150) · last: Josh Allen (QB) → Phil
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:32:29 · R5P3 (42/150) · last: Garrett Wilson (WR) → Adam
+⚠ WR RUN: 4/8 recent. Best WR left: Tetairoa McMillan
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:32:30 · R5P3 (42/150) · last: Garrett Wilson (WR) → Adam
+⚠ WR RUN: 4/8 recent. Best WR left: Tetairoa McMillan
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:32:37 · R5P4 (43/150) · last: Jalen Hurts (QB) → Steve
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:32:37 · R5P4 (43/150) · last: Jalen Hurts (QB) → Steve
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:33:43 · R5P5 (44/150) · last: Ladd McConkey (WR) → Jeff
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Josh Jacobs RB PPR278 (+0) | Alvin Kamara RB PPR255 (-23)
+  WR (need 1): Brian Thomas Jr. WR PPR281 (-56) | Davante Adams WR PPR258 (-78)
+  TE: George Kittle TE PPR229 (-96) | Tyler Warren TE PPR209 (-116)
+  QB (need 1): Lamar Jackson QB PPR364 (-94) | Jayden Daniels QB PPR354 (-104)
+
+>>> YOU ARE ON THE CLOCK (5 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:33:43 · R5P5 (44/150) · last: Ladd McConkey (WR) → Jeff
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Josh Jacobs RB PPR278 (+0) | Alvin Kamara RB PPR255 (-23)
+  WR (need 1): Brian Thomas Jr. WR PPR281 (-56) | Davante Adams WR PPR258 (-78)
+  TE: George Kittle TE PPR229 (-96) | Tyler Warren TE PPR209 (-116)
+  QB (need 1): Lamar Jackson QB PPR364 (-94) | Jayden Daniels QB PPR354 (-104)
+
+>>> YOU ARE ON THE CLOCK (5 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:33:48 · R5P6 (45/150) · last: Brian Thomas Jr. (WR) → Ben
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:33:48 · R5P6 (45/150) · last: Brian Thomas Jr. (WR) → Ben
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:35:05 · R5P7 (46/150) · last: DJ Moore (WR) → Ricky
+⚠ WR RUN: 4/8 recent. Best WR left: Tetairoa McMillan
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:35:05 · R5P7 (46/150) · last: DJ Moore (WR) → Ricky
+⚠ WR RUN: 4/8 recent. Best WR left: Tetairoa McMillan
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:36:17 · R5P8 (47/150) · last: Lamar Jackson (QB) → Isaac
+⚠ WR RUN: 4/8 recent. Best WR left: Tetairoa McMillan
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:36:17 · R5P8 (47/150) · last: Lamar Jackson (QB) → Isaac
+⚠ WR RUN: 4/8 recent. Best WR left: Tetairoa McMillan
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:36:21 · R5P9 (48/150) · last: Tetairoa McMillan (WR) → Kevin
+⚠ WR RUN: 5/8 recent. Best WR left: Emeka Egbuka
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:36:21 · R5P9 (48/150) · last: Tetairoa McMillan (WR) → Kevin
+⚠ WR RUN: 5/8 recent. Best WR left: Emeka Egbuka
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:36:24 · R5P10 (49/150) · last: Emeka Egbuka (WR) → Ric
+⚠ WR RUN: 6/8 recent. Best WR left: Jameson Williams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:36:24 · R5P10 (49/150) · last: Emeka Egbuka (WR) → Ric
+⚠ WR RUN: 6/8 recent. Best WR left: Jameson Williams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:38:00 · R6P1 (50/150) · last: Luther Burden III (WR) → Todd
+⚠ WR RUN: 6/8 recent. Best WR left: Jameson Williams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:38:01 · R6P1 (50/150) · last: Luther Burden III (WR) → Todd
+⚠ WR RUN: 6/8 recent. Best WR left: Jameson Williams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:38:03 · R6P2 (51/150) · last: Jameson Williams (WR) → Todd
+⚠ WR RUN: 7/8 recent. Best WR left: Davante Adams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:38:03 · R6P2 (51/150) · last: Jameson Williams (WR) → Todd
+⚠ WR RUN: 7/8 recent. Best WR left: Davante Adams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:38:29 · R6P3 (52/150) · last: Bo Nix (QB) → Ric
+⚠ WR RUN: 6/8 recent. Best WR left: Davante Adams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:38:29 · R6P3 (52/150) · last: Bo Nix (QB) → Ric
+⚠ WR RUN: 6/8 recent. Best WR left: Davante Adams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:38:40 · R6P4 (53/150) · last: Tyler Warren (TE) → Kevin
+⚠ WR RUN: 5/8 recent. Best WR left: Davante Adams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:38:40 · R6P4 (53/150) · last: Tyler Warren (TE) → Kevin
+⚠ WR RUN: 5/8 recent. Best WR left: Davante Adams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:40:12 · R6P5 (54/150) · last: Terry McLaurin (WR) → Isaac
+⚠ WR RUN: 5/8 recent. Best WR left: Davante Adams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:40:12 · R6P5 (54/150) · last: Terry McLaurin (WR) → Isaac
+⚠ WR RUN: 5/8 recent. Best WR left: Davante Adams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 167 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 144 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 117 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:40:43 · R6P6 (55/150) · last: David Montgomery (RB) → Ricky
+⚠ WR RUN: 5/8 recent. Best WR left: Davante Adams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 172 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 149 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 122 (experts 64-134 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Josh Jacobs RB PPR278 (+0) | Alvin Kamara RB PPR255 (-23)
+  WR: Davante Adams WR PPR258 (-84) | Mike Evans WR PPR242 (-100)
+  TE: George Kittle TE PPR229 (-99) | Dallas Goedert TE PPR206 (-123)
+  QB (need 1): Jayden Daniels QB PPR354 (-104) | Joe Burrow QB PPR332 (-127)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:40:43 · R6P6 (55/150) · last: David Montgomery (RB) → Ricky
+⚠ WR RUN: 5/8 recent. Best WR left: Davante Adams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 172 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 149 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 122 (experts 64-134 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Josh Jacobs RB PPR278 (+0) | Alvin Kamara RB PPR255 (-23)
+  WR: Davante Adams WR PPR258 (-84) | Mike Evans WR PPR242 (-100)
+  TE: George Kittle TE PPR229 (-99) | Dallas Goedert TE PPR206 (-123)
+  QB (need 1): Jayden Daniels QB PPR354 (-104) | Joe Burrow QB PPR332 (-127)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:40:48 · R6P7 (56/150) · last: Jayden Daniels (QB) → Ben
+⚠ WR RUN: 4/8 recent. Best WR left: Davante Adams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 172 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 149 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 122 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:40:48 · R6P7 (56/150) · last: Jayden Daniels (QB) → Ben
+⚠ WR RUN: 4/8 recent. Best WR left: Davante Adams
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 172 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 149 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 122 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:42:41 · R6P8 (57/150) · last: Bhayshul Tuten (RB) → Jeff
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 177 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 154 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 127 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:42:41 · R6P8 (57/150) · last: Bhayshul Tuten (RB) → Jeff
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 177 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 154 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 127 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:43:11 · R6P9 (58/150) · last: Quinshon Judkins (RB) → Steve
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 177 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 154 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 127 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:43:11 · R6P9 (58/150) · last: Quinshon Judkins (RB) → Steve
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 177 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 154 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 127 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:43:14 · R6P10 (59/150) · last: Jadarian Price (RB) → Adam
+⚠ RB RUN: 4/8 recent. Best RB left: TreVeyon Henderson
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 183 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 159 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 133 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:43:14 · R6P10 (59/150) · last: Jadarian Price (RB) → Adam
+⚠ RB RUN: 4/8 recent. Best RB left: TreVeyon Henderson
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 183 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 159 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 133 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:44:29 · R7P1 (60/150) · last: Davante Adams (WR) → Phil
+⚠ RB RUN: 4/8 recent. Best RB left: TreVeyon Henderson
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 183 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 159 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 133 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:44:29 · R7P1 (60/150) · last: Davante Adams (WR) → Phil
+⚠ RB RUN: 4/8 recent. Best RB left: TreVeyon Henderson
+
+Engine says:
+  1. Josh Jacobs RB GB · PPR 278 · VORP 183 (experts 23-364 CONTESTED)
+  2. Alvin Kamara RB NO · PPR 255 · VORP 159 (experts 119-283 CONTESTED)
+  3. Chuba Hubbard RB CAR · PPR 228 · VORP 133 (experts 64-134 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:45:14 · R7P2 (61/150) · last: Josh Jacobs (RB) → Phil
+⚠ RB RUN: 5/8 recent. Best RB left: TreVeyon Henderson
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:45:14 · R7P2 (61/150) · last: Josh Jacobs (RB) → Phil
+⚠ RB RUN: 5/8 recent. Best RB left: TreVeyon Henderson
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:45:17 · R7P3 (62/150) · last: Joe Burrow (QB) → Adam
+⚠ RB RUN: 5/8 recent. Best RB left: TreVeyon Henderson
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:45:17 · R7P3 (62/150) · last: Joe Burrow (QB) → Adam
+⚠ RB RUN: 5/8 recent. Best RB left: TreVeyon Henderson
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:45:49 · R7P4 (63/150) · last: Rome Odunze (WR) → Steve
+⚠ RB RUN: 4/8 recent. Best RB left: TreVeyon Henderson
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:45:49 · R7P4 (63/150) · last: Rome Odunze (WR) → Steve
+⚠ RB RUN: 4/8 recent. Best RB left: TreVeyon Henderson
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:46:58 · R7P5 (64/150) · last: Christian Watson (WR) → Jeff
+⚠ RB RUN: 4/8 recent. Best RB left: TreVeyon Henderson
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Alvin Kamara RB PPR255 (+0) | Chuba Hubbard RB PPR228 (-27)
+  WR: Mike Evans WR PPR242 (-84) | DK Metcalf WR PPR236 (-90)
+  TE: George Kittle TE PPR229 (-101) | Dallas Goedert TE PPR206 (-124)
+  QB: Patrick Mahomes II QB PPR318 (-135) | Drake Maye QB PPR315 (-138)
+
+>>> YOU ARE ON THE CLOCK (5 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:46:58 · R7P5 (64/150) · last: Christian Watson (WR) → Jeff
+⚠ RB RUN: 4/8 recent. Best RB left: TreVeyon Henderson
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Alvin Kamara RB PPR255 (+0) | Chuba Hubbard RB PPR228 (-27)
+  WR: Mike Evans WR PPR242 (-84) | DK Metcalf WR PPR236 (-90)
+  TE: George Kittle TE PPR229 (-101) | Dallas Goedert TE PPR206 (-124)
+  QB: Patrick Mahomes II QB PPR318 (-135) | Drake Maye QB PPR315 (-138)
+
+>>> YOU ARE ON THE CLOCK (5 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:47:13 · R7P6 (65/150) · last: Marvin Harrison Jr. (WR) → Ben
+⚠ WR RUN: 4/8 recent. Best WR left: Mike Evans
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:47:13 · R7P6 (65/150) · last: Marvin Harrison Jr. (WR) → Ben
+⚠ WR RUN: 4/8 recent. Best WR left: Mike Evans
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:48:52 · R7P7 (66/150) · last: Sam LaPorta (TE) → Ricky
+⚠ WR RUN: 4/8 recent. Best WR left: Mike Evans
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:48:52 · R7P7 (66/150) · last: Sam LaPorta (TE) → Ricky
+⚠ WR RUN: 4/8 recent. Best WR left: Mike Evans
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:49:11 · R7P8 (67/150) · last: Mark Andrews (TE) → Isaac
+⚠ WR RUN: 4/8 recent. Best WR left: Mike Evans
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:49:11 · R7P8 (67/150) · last: Mark Andrews (TE) → Isaac
+⚠ WR RUN: 4/8 recent. Best WR left: Mike Evans
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:49:38 · R7P9 (68/150) · last: Drake Maye (QB) → Kevin
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:49:38 · R7P9 (68/150) · last: Drake Maye (QB) → Kevin
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:49:41 · R7P10 (69/150) · last: Dalton Kincaid (TE) → Ric
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:49:41 · R7P10 (69/150) · last: Dalton Kincaid (TE) → Ric
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 173 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 125 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:50:45 · R8P1 (70/150) · last: Rhamondre Stevenson (RB) → Todd
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 174 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 126 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:50:45 · R8P1 (70/150) · last: Rhamondre Stevenson (RB) → Todd
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 174 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 147 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 126 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:52:05 · R8P2 (71/150) · last: Jaylen Warren (RB) → Todd
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:52:05 · R8P2 (71/150) · last: Jaylen Warren (RB) → Todd
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:52:12 · R8P3 (72/150) · last: Parker Washington (WR) → Ric
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:52:12 · R8P3 (72/150) · last: Parker Washington (WR) → Ric
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:52:17 · R8P4 (73/150) · last: Mike Evans (WR) → Kevin
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:52:17 · R8P4 (73/150) · last: Mike Evans (WR) → Kevin
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:52:55 · R8P5 (74/150) · last: George Kittle (TE) → Isaac
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:52:55 · R8P5 (74/150) · last: George Kittle (TE) → Isaac
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:53:16 · R8P6 (75/150) · last: MarShawn Lloyd (RB) → Ricky
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Alvin Kamara RB PPR255 (+0) | Chuba Hubbard RB PPR228 (-27)
+  WR: DK Metcalf WR PPR236 (-86) | Xavier Worthy WR PPR231 (-91)
+  TE: Dallas Goedert TE PPR206 (-108) | Kyle Pitts Sr. TE PPR201 (-113)
+  QB: Patrick Mahomes II QB PPR318 (-144) | Dak Prescott QB PPR311 (-151)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:53:16 · R8P6 (75/150) · last: MarShawn Lloyd (RB) → Ricky
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Alvin Kamara RB PPR255 (+0) | Chuba Hubbard RB PPR228 (-27)
+  WR: DK Metcalf WR PPR236 (-86) | Xavier Worthy WR PPR231 (-91)
+  TE: Dallas Goedert TE PPR206 (-108) | Kyle Pitts Sr. TE PPR201 (-113)
+  QB: Patrick Mahomes II QB PPR318 (-144) | Dak Prescott QB PPR311 (-151)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:53:24 · R8P7 (76/150) · last: DK Metcalf (WR) → Ben
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:53:24 · R8P7 (76/150) · last: DK Metcalf (WR) → Ben
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:55:05 · R8P8 (77/150) · last: Harold Fannin Jr. (TE) → Jeff
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:55:05 · R8P8 (77/150) · last: Harold Fannin Jr. (TE) → Jeff
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:55:06 · R8P9 (78/150) · last: Carnell Tate (WR) → Steve
+⚠ WR RUN: 4/8 recent. Best WR left: Quentin Johnston
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:55:06 · R8P9 (78/150) · last: Carnell Tate (WR) → Steve
+⚠ WR RUN: 4/8 recent. Best WR left: Quentin Johnston
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 177 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 150 (experts 64-134 CONTESTED)
+  3. TreVeyon Henderson RB NE · PPR 206 · VORP 129 (experts 49-87 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:55:13 · R8P10 (79/150) · last: TreVeyon Henderson (RB) → Adam
+⚠ WR RUN: 4/8 recent. Best WR left: Quentin Johnston
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 180 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 153 (experts 64-134 CONTESTED)
+  3. Tony Pollard RB TEN · PPR 199 · VORP 124 (experts 56-112 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:55:13 · R8P10 (79/150) · last: TreVeyon Henderson (RB) → Adam
+⚠ WR RUN: 4/8 recent. Best WR left: Quentin Johnston
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 180 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 153 (experts 64-134 CONTESTED)
+  3. Tony Pollard RB TEN · PPR 199 · VORP 124 (experts 56-112 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:55:52 · R9P1 (80/150) · last: Tony Pollard (RB) → Phil
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 183 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 157 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 127 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:55:52 · R9P1 (80/150) · last: Tony Pollard (RB) → Phil
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 183 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 157 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 127 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:55:57 · R9P2 (81/150) · last: Jonathon Brooks (RB) → Phil
+⚠ RB RUN: 4/8 recent. Best RB left: Rico Dowdle
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:55:57 · R9P2 (81/150) · last: Jonathon Brooks (RB) → Phil
+⚠ RB RUN: 4/8 recent. Best RB left: Rico Dowdle
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:56:27 · R9P3 (82/150) · last: Kyle Pitts Sr. (TE) → Adam
+⚠ RB RUN: 4/8 recent. Best RB left: Rico Dowdle
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:56:27 · R9P3 (82/150) · last: Kyle Pitts Sr. (TE) → Adam
+⚠ RB RUN: 4/8 recent. Best RB left: Rico Dowdle
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:57:37 · R9P4 (83/150) · last: Tucker Kraft (TE) → Steve
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:57:37 · R9P4 (83/150) · last: Tucker Kraft (TE) → Steve
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:57:59 · R9P5 (84/150) · last: Justin Herbert (QB) → Jeff
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Alvin Kamara RB PPR255 (+0) | Chuba Hubbard RB PPR228 (-27)
+  WR: Xavier Worthy WR PPR231 (-99) | Courtland Sutton WR PPR221 (-109)
+  TE: Dallas Goedert TE PPR206 (-109) | Isaiah Likely TE PPR197 (-117)
+  QB: Patrick Mahomes II QB PPR318 (-147) | Dak Prescott QB PPR311 (-154)
+
+>>> YOU ARE ON THE CLOCK (5 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:57:59 · R9P5 (84/150) · last: Justin Herbert (QB) → Jeff
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Alvin Kamara RB PPR255 (+0) | Chuba Hubbard RB PPR228 (-27)
+  WR: Xavier Worthy WR PPR231 (-99) | Courtland Sutton WR PPR221 (-109)
+  TE: Dallas Goedert TE PPR206 (-109) | Isaiah Likely TE PPR197 (-117)
+  QB: Patrick Mahomes II QB PPR318 (-147) | Dak Prescott QB PPR311 (-154)
+
+>>> YOU ARE ON THE CLOCK (5 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 18:58:13 · R9P6 (85/150) · last: Dallas Goedert (TE) → Ben
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:58:13 · R9P6 (85/150) · last: Dallas Goedert (TE) → Ben
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:58:39 · R9P7 (86/150) · last: Dak Prescott (QB) → Ricky
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 18:58:39 · R9P7 (86/150) · last: Dak Prescott (QB) → Ricky
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:00:02 · R9P8 (87/150) · last: Chris Godwin Jr. (WR) → Isaac
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:00:02 · R9P8 (87/150) · last: Chris Godwin Jr. (WR) → Isaac
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:00:04 · R9P9 (88/150) · last: Caleb Williams (QB) → Kevin
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:00:04 · R9P9 (88/150) · last: Caleb Williams (QB) → Kevin
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:00:07 · R9P10 (89/150) · last: Aubrey (?) → Ric
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:00:07 · R9P10 (89/150) · last: Aubrey (?) → Ric
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:01:15 · R10P1 (90/150) · last: Trevor Lawrence (QB) → Todd
+⚠ QB RUN: 4/8 recent. Best QB left: Brock Purdy
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:01:15 · R10P1 (90/150) · last: Trevor Lawrence (QB) → Todd
+⚠ QB RUN: 4/8 recent. Best QB left: Brock Purdy
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:02:23 · R10P2 (91/150) · last: Quentin Johnston (WR) → Todd
+⚠ QB RUN: 4/8 recent. Best QB left: Brock Purdy
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:02:23 · R10P2 (91/150) · last: Quentin Johnston (WR) → Todd
+⚠ QB RUN: 4/8 recent. Best QB left: Brock Purdy
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 186 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 159 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 130 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:02:38 · R10P3 (92/150) · last: J.K. Dobbins (RB) → Ric
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 198 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 171 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 142 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:02:39 · R10P3 (92/150) · last: J.K. Dobbins (RB) → Ric
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 198 (experts 119-283 CONTESTED)
+  2. Chuba Hubbard RB CAR · PPR 228 · VORP 171 (experts 64-134 CONTESTED)
+  3. Aaron Jones Sr. RB MIN · PPR 199 · VORP 142 (experts 102-161 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:02:40 · R10P4 (93/150) · last: Chuba Hubbard (RB) → Kevin
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 228 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 172 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 171 (experts 64-117 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:02:40 · R10P4 (93/150) · last: Chuba Hubbard (RB) → Kevin
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 228 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 172 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 171 (experts 64-117 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:03:26 · R10P5 (94/150) · last: Jordan Addison (WR) → Isaac
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 228 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 172 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 171 (experts 64-117 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:03:26 · R10P5 (94/150) · last: Jordan Addison (WR) → Isaac
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 228 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 172 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 171 (experts 64-117 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:04:02 · R10P6 (95/150) · last: Jacory Croskey-Merritt (RB) → Ricky
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 174 (experts 64-117 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Alvin Kamara RB PPR255 (+0) | Aaron Jones Sr. RB PPR199 (-56)
+  WR: Xavier Worthy WR PPR231 (-129) | Courtland Sutton WR PPR221 (-139)
+  TE: Isaiah Likely TE PPR197 (-134) | Travis Kelce TE PPR185 (-146)
+  QB: Patrick Mahomes II QB PPR318 (-182) | Kyler Murray QB PPR307 (-193)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 19:04:02 · R10P6 (95/150) · last: Jacory Croskey-Merritt (RB) → Ricky
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 174 (experts 64-117 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Alvin Kamara RB PPR255 (+0) | Aaron Jones Sr. RB PPR199 (-56)
+  WR: Xavier Worthy WR PPR231 (-129) | Courtland Sutton WR PPR221 (-139)
+  TE: Isaiah Likely TE PPR197 (-134) | Travis Kelce TE PPR185 (-146)
+  QB: Patrick Mahomes II QB PPR318 (-182) | Kyler Murray QB PPR307 (-193)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 19:04:11 · R10P7 (96/150) · last: Xavier Worthy (WR) → Ben
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 174 (experts 64-117 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:04:11 · R10P7 (96/150) · last: Xavier Worthy (WR) → Ben
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 174 (experts 64-117 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:05:36 · R10P8 (97/150) · last: KC Concepcion (WR) → Jeff
+⚠ WR RUN: 4/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 174 (experts 64-117 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:05:36 · R10P8 (97/150) · last: KC Concepcion (WR) → Jeff
+⚠ WR RUN: 4/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 174 (experts 64-117 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:06:15 · R10P9 (98/150) · last: Jayden Reed (WR) → Steve
+⚠ WR RUN: 5/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 174 (experts 64-117 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:06:15 · R10P9 (98/150) · last: Jayden Reed (WR) → Steve
+⚠ WR RUN: 5/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 174 (experts 64-117 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:06:23 · R10P10 (99/150) · last: Alec Pierce (WR) → Adam
+⚠ WR RUN: 5/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 174 (experts 64-117 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:06:23 · R10P10 (99/150) · last: Alec Pierce (WR) → Adam
+⚠ WR RUN: 5/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. Rico Dowdle RB PIT · PPR 198 · VORP 174 (experts 64-117 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:06:37 · R11P1 (100/150) · last: Rico Dowdle (RB) → Phil
+⚠ WR RUN: 5/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. RJ Harvey RB DEN · PPR 192 · VORP 167 (experts 66-148 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:06:37 · R11P1 (100/150) · last: Rico Dowdle (RB) → Phil
+⚠ WR RUN: 5/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. RJ Harvey RB DEN · PPR 192 · VORP 167 (experts 66-148 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:06:55 · R11P2 (101/150) · last: Josh Downs (WR) → Phil
+⚠ WR RUN: 6/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. RJ Harvey RB DEN · PPR 192 · VORP 167 (experts 66-148 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:06:55 · R11P2 (101/150) · last: Josh Downs (WR) → Phil
+⚠ WR RUN: 6/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. RJ Harvey RB DEN · PPR 192 · VORP 167 (experts 66-148 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:08:35 · R11P3 (102/150) · last: Rams (?) → Adam
+⚠ WR RUN: 5/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. RJ Harvey RB DEN · PPR 192 · VORP 167 (experts 66-148 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:08:35 · R11P3 (102/150) · last: Rams (?) → Adam
+⚠ WR RUN: 5/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. RJ Harvey RB DEN · PPR 192 · VORP 167 (experts 66-148 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:08:38 · R11P4 (103/150) · last: Texans (?) → Steve
+⚠ WR RUN: 5/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. RJ Harvey RB DEN · PPR 192 · VORP 167 (experts 66-148 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:08:38 · R11P4 (103/150) · last: Texans (?) → Steve
+⚠ WR RUN: 5/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 230 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 174 (experts 102-161 CONTESTED)
+  3. RJ Harvey RB DEN · PPR 192 · VORP 167 (experts 66-148 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:09:01 · R11P5 (104/150) · last: RJ Harvey (RB) → Jeff
+⚠ WR RUN: 4/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 232 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  3. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Alvin Kamara RB PPR255 (+0) | Aaron Jones Sr. RB PPR199 (-56)
+  WR: Courtland Sutton WR PPR221 (-111) | Jerry Jeudy WR PPR218 (-114)
+  TE: Isaiah Likely TE PPR197 (-136) | Travis Kelce TE PPR185 (-148)
+  QB: Patrick Mahomes II QB PPR318 (-184)
+
+>>> YOU ARE ON THE CLOCK (5 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 19:09:01 · R11P5 (104/150) · last: RJ Harvey (RB) → Jeff
+⚠ WR RUN: 4/8 recent. Best WR left: Courtland Sutton
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 232 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  3. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Alvin Kamara RB PPR255 (+0) | Aaron Jones Sr. RB PPR199 (-56)
+  WR: Courtland Sutton WR PPR221 (-111) | Jerry Jeudy WR PPR218 (-114)
+  TE: Isaiah Likely TE PPR197 (-136) | Travis Kelce TE PPR185 (-148)
+  QB: Patrick Mahomes II QB PPR318 (-184)
+
+>>> YOU ARE ON THE CLOCK (5 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 19:09:05 · R11P6 (105/150) · last: Courtland Sutton (WR) → Ben
+⚠ WR RUN: 4/8 recent. Best WR left: Michael Wilson
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 232 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  3. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:09:05 · R11P6 (105/150) · last: Courtland Sutton (WR) → Ben
+⚠ WR RUN: 4/8 recent. Best WR left: Michael Wilson
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 232 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  3. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:09:55 · R11P7 (106/150) · last: Michael Pittman Jr. (WR) → Ricky
+⚠ WR RUN: 4/8 recent. Best WR left: Michael Wilson
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 232 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  3. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:09:55 · R11P7 (106/150) · last: Michael Pittman Jr. (WR) → Ricky
+⚠ WR RUN: 4/8 recent. Best WR left: Michael Wilson
+
+Engine says:
+  1. Alvin Kamara RB NO · PPR 255 · VORP 232 (experts 119-283 CONTESTED)
+  2. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  3. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:10:41 · R11P8 (107/150) · last: Alvin Kamara (RB) → Isaac
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:10:41 · R11P8 (107/150) · last: Alvin Kamara (RB) → Isaac
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:11:24 · R11P9 (108/150) · last: Michael Wilson (WR) → Kevin
+⚠ WR RUN: 4/8 recent. Best WR left: Makai Lemon
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:11:24 · R11P9 (108/150) · last: Michael Wilson (WR) → Kevin
+⚠ WR RUN: 4/8 recent. Best WR left: Makai Lemon
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:13:37 · R11P10 (109/150) · last: Jordan Mason (RB) → Ric
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:13:37 · R11P10 (109/150) · last: Jordan Mason (RB) → Ric
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:13:39 · R12P1 (110/150) · last: Isaiah Likely (TE) → Todd
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:13:39 · R12P1 (110/150) · last: Isaiah Likely (TE) → Todd
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:13:40 · R12P2 (111/150) · last: Blake Corum (RB) → Todd
+⚠ RB RUN: 4/8 recent. Best RB left: Kyle Monangai
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:13:40 · R12P2 (111/150) · last: Blake Corum (RB) → Todd
+⚠ RB RUN: 4/8 recent. Best RB left: Kyle Monangai
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:14:16 · R12P3 (112/150) · last: Travis Kelce (TE) → Ric
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:14:16 · R12P3 (112/150) · last: Travis Kelce (TE) → Ric
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:14:21 · R12P4 (113/150) · last: Juwan Johnson (TE) → Kevin
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:14:21 · R12P4 (113/150) · last: Juwan Johnson (TE) → Kevin
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:15:27 · R12P5 (114/150) · last: Stefon Diggs (WR) → Isaac
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:15:28 · R12P5 (114/150) · last: Stefon Diggs (WR) → Isaac
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:16:23 · R12P6 (115/150) · last: Wan'Dale Robinson (WR) → Ricky
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Aaron Jones Sr. RB PPR199 (+0) | Tyrone Tracy Jr. RB PPR179 (-20)
+  WR: Jerry Jeudy WR PPR218 (-30) | Calvin Ridley WR PPR214 (-34)
+  TE: T.J. Hockenson TE PPR182 (-96) | Jake Ferguson TE PPR180 (-99)
+  QB: Patrick Mahomes II QB PPR318 (-129) | Kyler Murray QB PPR307 (-140)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 19:16:23 · R12P6 (115/150) · last: Wan'Dale Robinson (WR) → Ricky
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB: Aaron Jones Sr. RB PPR199 (+0) | Tyrone Tracy Jr. RB PPR179 (-20)
+  WR: Jerry Jeudy WR PPR218 (-30) | Calvin Ridley WR PPR214 (-34)
+  TE: T.J. Hockenson TE PPR182 (-96) | Jake Ferguson TE PPR180 (-99)
+  QB: Patrick Mahomes II QB PPR318 (-129) | Kyler Murray QB PPR307 (-140)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------
+BEEF draft · 19:17:46 · R12P7 (116/150) · last: Ganwell (?) → Ben
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:17:46 · R12P7 (116/150) · last: Ganwell (?) → Ben
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:18:48 · R12P8 (117/150) · last: Najee Harris (RB) → Jeff
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:18:48 · R12P8 (117/150) · last: Najee Harris (RB) → Jeff
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:19:12 · R12P9 (118/150) · last: Matthew Stafford (QB) → Steve
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:19:12 · R12P9 (118/150) · last: Matthew Stafford (QB) → Steve
+
+Engine says:
+  1. Aaron Jones Sr. RB MIN · PPR 199 · VORP 176 (experts 102-161 CONTESTED)
+  2. Tyrone Tracy Jr. RB NYG · PPR 179 · VORP 156 (experts 119-300 CONTESTED)
+  3. Isiah Pacheco RB KC · PPR 177 · VORP 154 (experts 127-295 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:19:32 · R12P10 (119/150) · last: Jakobi Meyers (WR) → Adam
+
+Engine says:
+  1. Jerry Jeudy WR CLE · PPR 218 · VORP 213 (experts 125-258 CONTESTED)
+  2. Calvin Ridley WR TEN · PPR 214 · VORP 209 (experts 125-297 CONTESTED)
+  3. Deebo Samuel Sr. WR WSH · PPR 199 · VORP 194 (experts 80-243 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:19:32 · R12P10 (119/150) · last: Jakobi Meyers (WR) → Adam
+
+Engine says:
+  1. Jerry Jeudy WR CLE · PPR 218 · VORP 213 (experts 125-258 CONTESTED)
+  2. Calvin Ridley WR TEN · PPR 214 · VORP 209 (experts 125-297 CONTESTED)
+  3. Deebo Samuel Sr. WR WSH · PPR 199 · VORP 194 (experts 80-243 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:19:37 · R13P1 (120/150) · last: Mevis (?) → Phil
+
+Engine says:
+  1. Jerry Jeudy WR CLE · PPR 218 · VORP 213 (experts 125-258 CONTESTED)
+  2. Calvin Ridley WR TEN · PPR 214 · VORP 209 (experts 125-297 CONTESTED)
+  3. Deebo Samuel Sr. WR WSH · PPR 199 · VORP 194 (experts 80-243 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:19:37 · R13P1 (120/150) · last: Mevis (?) → Phil
+
+Engine says:
+  1. Jerry Jeudy WR CLE · PPR 218 · VORP 213 (experts 125-258 CONTESTED)
+  2. Calvin Ridley WR TEN · PPR 214 · VORP 209 (experts 125-297 CONTESTED)
+  3. Deebo Samuel Sr. WR WSH · PPR 199 · VORP 194 (experts 80-243 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:20:31 · R13P2 (121/150) · last: De'Zhaun Stribling (WR) → Phil
+⚠ WR RUN: 4/8 recent. Best WR left: Makai Lemon
+
+Engine says:
+  1. Jerry Jeudy WR CLE · PPR 218 · VORP 213 (experts 125-258 CONTESTED)
+  2. Calvin Ridley WR TEN · PPR 214 · VORP 209 (experts 125-297 CONTESTED)
+  3. Deebo Samuel Sr. WR WSH · PPR 199 · VORP 194 (experts 80-243 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:20:31 · R13P2 (121/150) · last: De'Zhaun Stribling (WR) → Phil
+⚠ WR RUN: 4/8 recent. Best WR left: Makai Lemon
+
+Engine says:
+  1. Jerry Jeudy WR CLE · PPR 218 · VORP 213 (experts 125-258 CONTESTED)
+  2. Calvin Ridley WR TEN · PPR 214 · VORP 209 (experts 125-297 CONTESTED)
+  3. Deebo Samuel Sr. WR WSH · PPR 199 · VORP 194 (experts 80-243 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:20:35 · R13P3 (122/150) · last: Myers (?) → Adam
+
+Engine says:
+  1. Jerry Jeudy WR CLE · PPR 218 · VORP 213 (experts 125-258 CONTESTED)
+  2. Calvin Ridley WR TEN · PPR 214 · VORP 209 (experts 125-297 CONTESTED)
+  3. Deebo Samuel Sr. WR WSH · PPR 199 · VORP 194 (experts 80-243 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:20:35 · R13P3 (122/150) · last: Myers (?) → Adam
+
+Engine says:
+  1. Jerry Jeudy WR CLE · PPR 218 · VORP 213 (experts 125-258 CONTESTED)
+  2. Calvin Ridley WR TEN · PPR 214 · VORP 209 (experts 125-297 CONTESTED)
+  3. Deebo Samuel Sr. WR WSH · PPR 199 · VORP 194 (experts 80-243 CONTESTED)
+----------------------------------------------------------------------
+BEEF draft · 19:25:27 · R1P6 (5/150) · last: De'Von Achane (RB) → Ben
+Your next picks: #16
+
+Engine says:
+  1. Jahmyr Gibbs RB DET · PPR 372 · VORP 180 (experts 1-5)  👀 opponents need this
+  2. Jaxon Smith-Njigba WR SEA · PPR 350 · VORP 138 (experts 2-10)  👀 opponents need this
+  3. Christian McCaffrey RB SF · PPR 326 · VORP 134 (experts 3-28 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
+BEEF draft · 19:29:10 · R2P6 (15/150) · last: ??? (?) → Ricky
+Your next picks: #16
+⚠ ? RUN: 4/8 recent. Best ? left: NONE
+
+Engine says:
+  1. Jahmyr Gibbs RB DET · PPR 372 · VORP 192 (experts 1-5)  👀 opponents need this
+  2. Christian McCaffrey RB SF · PPR 326 · VORP 147 (experts 3-28 CONTESTED)  👀 opponents need this
+  3. Jonathan Taylor RB IND · PPR 323 · VORP 143 (experts 2-23 CONTESTED)  👀 opponents need this
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB (need 1): Jahmyr Gibbs RB PPR372 (+0) | Christian McCaffrey RB PPR326 (-46)
+  WR (need 2): Jaxon Smith-Njigba WR PPR350 (-54) | Malik Nabers WR PPR298 (-106)
+  TE (need 1): Trey McBride TE PPR263 (-106) | Brock Bowers TE PPR256 (-112)
+  QB (need 1): Josh Allen QB PPR366 (-143) | Lamar Jackson QB PPR364 (-144)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
+----------------------------------------------------------------------

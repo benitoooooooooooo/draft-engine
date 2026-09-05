@@ -1,1 +1,16 @@
-(no notes yet — your Hermes coach writes here between rounds)
+BEEF draft · 19:29:10 · R2P6 (15/150) · last: ??? (?) → Ricky
+Your next picks: #16
+⚠ ? RUN: 4/8 recent. Best ? left: NONE
+
+Engine says:
+  1. Jahmyr Gibbs RB DET · PPR 372 · VORP 192 (experts 1-5)  👀 opponents need this
+  2. Christian McCaffrey RB SF · PPR 326 · VORP 147 (experts 3-28 CONTESTED)  👀 opponents need this
+  3. Jonathan Taylor RB IND · PPR 323 · VORP 143 (experts 2-23 CONTESTED)  👀 opponents need this
+
+OPTIONS BY POSITION (cost vs overall #1):
+  RB (need 1): Jahmyr Gibbs RB PPR372 (+0) | Christian McCaffrey RB PPR326 (-46)
+  WR (need 2): Jaxon Smith-Njigba WR PPR350 (-54) | Malik Nabers WR PPR298 (-106)
+  TE (need 1): Trey McBride TE PPR263 (-106) | Brock Bowers TE PPR256 (-112)
+  QB (need 1): Josh Allen QB PPR366 (-143) | Lamar Jackson QB PPR364 (-144)
+
+>>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
