@@ -239,10 +239,11 @@ class DraftCLI:
             return
         
         print(f"\n  LAST {min(last_n, len(self.state.picks_made))} PICKS:")
-        print(f"  {'Pick':<6} {'Team':<6} {'Player':<22} {'Pos':<4} {'Team':<5}")
+        print(f"  {'Pick':<6} {'Team':<10} {'Player':<22} {'Pos':<4} {'NFL Team':<5}")
         print(f"  {'-'*50}")
         for i, (team, p) in enumerate(self.state.picks_made[-last_n:], 1):
-            print(f"  {len(self.state.picks_made) - last_n + i:<6} {team + 1:<6} {p.name:<22} {p.position:<4} {p.team:<5}")
+            label = self.team_label(team).replace('Team ', 'T')
+            print(f"  {len(self.state.picks_made) - last_n + i:<6} {label:<10} {p.name:<22} {p.position:<4} {p.team:<5}")
     
     def search_player(self, query: str) -> Optional[Player]:
         """Find player by name — substring, initial, or fuzzy (typo-tolerant).

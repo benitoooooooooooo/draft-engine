@@ -2099,3 +2099,12 @@ OPTIONS BY POSITION (cost vs overall #1):
 
 >>> YOU ARE ON THE CLOCK (6 of 10 in round) — take #1 unless the note above overrides
 ----------------------------------------------------------------------
+BEEF draft · 19:31:31 · R2P5 (14/150) · last: ??? (?) → Isaac
+Your next picks: #16
+⚠ ? RUN: 8/8 recent. Best ? left: NONE
+
+Engine says:
+  1. Jahmyr Gibbs RB DET · PPR 372 · VORP 180 (experts 1-5)  👀 opponents need this
+  2. Jaxon Smith-Njigba WR SEA · PPR 350 · VORP 138 (experts 2-10)  👀 opponents need this
+  3. Christian McCaffrey RB SF · PPR 326 · VORP 134 (experts 3-28 CONTESTED)  👀 opponents need this
+----------------------------------------------------------------------
