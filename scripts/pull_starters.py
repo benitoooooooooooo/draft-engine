@@ -13,23 +13,26 @@ EVAL = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fetch_cdp_eval.
 
 JS = '''
 (() => {
+  // starters page: one table per team, 2 cells (Pos, Player). Find ours.
+  const tables = [...document.querySelectorAll('table')];
+  const ours = tables.find(t => t.innerText.includes('Christian McCaffrey') &&
+                                t.innerText.includes('Jayden Daniels'));
+  if (!ours) return JSON.stringify({error: 'team table not found', tables: tables.length});
   const rows = [];
-  document.querySelectorAll('table tr').forEach(tr => {
-    const cells = [...tr.querySelectorAll('td')].map(c => c.innerText.trim().replace(/\\n+/g,' '));
-    if (cells.length >= 3 && /^(QB|RB|WR|TE|K|DEF|FLEX|BN|IR)$/.test(cells[0])) {
-      const nameEl = tr.querySelector('a.name');
-      const pid = nameEl ? nameEl.getAttribute('data-ys-playerid') : null;
-      const inj = tr.querySelector('.F-injury span[title]');
-      const game = tr.querySelector('.ysf-game-status a');
-      rows.push({pos_req: cells[0], name: nameEl ? nameEl.innerText.trim() : cells[1],
-                 player_id: pid, row_cells: cells.slice(0,6),
-                 injury: inj ? inj.getAttribute('title') : '',
-                 game: game ? game.innerText.trim() : '',
-                 started: !!(nameEl && nameEl.closest('tr') && tr.querySelector('input:checked, .selected'))
-                });
-    }
+  [...ours.querySelectorAll('tr')].forEach(tr => {
+    const cells = [...tr.querySelectorAll('td')];
+    if (cells.length < 2) return;
+    const slot = cells[0].innerText.trim();
+    if (!/^(QB|RB|WR|TE|K|DEF|FLEX|BN|IR)$/.test(slot)) return;
+    const nameEl = cells[1].querySelector('a.name');
+    const inj = cells[1].querySelector('.F-injury span[title]');
+    const proj = cells[1].innerText.match(/(\\d+\\.\\d+)\\s*proj/i);
+    rows.push({slot, name: nameEl ? nameEl.innerText.trim() : '',
+               player_id: nameEl ? nameEl.getAttribute('data-ys-playerid') : null,
+               injury: inj ? inj.getAttribute('title') : ''});
   });
-  return JSON.stringify({count: rows.length, rows: rows.slice(0, 20)});
+  const header = ours.closest('div')?.parentElement?.innerText.slice(0, 80) || '';
+  return JSON.stringify({count: rows.length, rows});
 })()
 '''
 
