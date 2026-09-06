@@ -13,26 +13,42 @@ EVAL = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fetch_cdp_eval.
 
 JS = '''
 (() => {
-  // starters page: one table per team, 2 cells (Pos, Player). Find ours.
+  // starters page: one table per team. Capture all; label blocks by header text.
   const tables = [...document.querySelectorAll('table')];
-  const ours = tables.find(t => t.innerText.includes('Christian McCaffrey') &&
-                                t.innerText.includes('Jayden Daniels'));
-  if (!ours) return JSON.stringify({error: 'team table not found', tables: tables.length});
-  const rows = [];
-  [...ours.querySelectorAll('tr')].forEach(tr => {
-    const cells = [...tr.querySelectorAll('td')];
-    if (cells.length < 2) return;
-    const slot = cells[0].innerText.trim();
-    if (!/^(QB|RB|WR|TE|K|DEF|FLEX|BN|IR)$/.test(slot)) return;
-    const nameEl = cells[1].querySelector('a.name');
-    const inj = cells[1].querySelector('.F-injury span[title]');
-    const proj = cells[1].innerText.match(/(\\d+\\.\\d+)\\s*proj/i);
-    rows.push({slot, name: nameEl ? nameEl.innerText.trim() : '',
-               player_id: nameEl ? nameEl.getAttribute('data-ys-playerid') : null,
-               injury: inj ? inj.getAttribute('title') : ''});
-  });
-  const header = ours.closest('div')?.parentElement?.innerText.slice(0, 80) || '';
-  return JSON.stringify({count: rows.length, rows});
+  const teams = [];
+  for (const t of tables) {
+    const txt = t.innerText;
+    if (!/QB|RB/.test(txt)) continue;
+    // team name: walk up to a container that has a team link
+    let el = t, teamName = '', teamId = '';
+    for (let up = 0; up < 6 && el; up++) {
+      el = el.parentElement;
+      if (!el) break;
+      const a = el.querySelector && el.querySelector('a[href*="/f1/968508/"]');
+      if (a) {
+        const m = a.href.match(/f1\\/968508\\/(\\d+)/);
+        if (m && ['1','2','3','4','5','6','7','8','9','10'].includes(m[1])) {
+          teamId = m[1]; teamName = a.innerText.trim();
+        }
+      }
+      if (teamId) break;
+    }
+    const rows = [];
+    [...t.querySelectorAll('tr')].forEach(tr => {
+      const cells = [...tr.querySelectorAll('td')];
+      if (cells.length < 2) return;
+      const slot = cells[0].innerText.trim().toUpperCase();
+      if (!/^(QB|RB|WR|TE|K|DEF|FLEX|BN|IR|W|R|T|WR-RB-TE|[A-Z\\/ ]{1,8})$/.test(slot)) return;
+      const nameEl = cells[1].querySelector('a.name');
+      if (!nameEl) return;
+      const inj = cells[1].querySelector('.F-injury span[title]');
+      rows.push({slot, name: nameEl.innerText.trim(),
+                 player_id: nameEl.getAttribute('data-ys-playerid'),
+                 injury: inj ? inj.getAttribute('title') : ''});
+    });
+    if (rows.length >= 12 && teamId) teams.push({team_id: teamId, team_name: teamName, rows});
+  }
+  return JSON.stringify({teams});
 })()
 '''
 
@@ -51,10 +67,14 @@ def main():
         data = json.loads(raw)
     except json.JSONDecodeError:
         print('RAW head:', raw[:400]); return
-    print(f"rows matched: {data.get('count')}")
-    for row in data.get('rows', []):
-        print(f"  {row['slot']:<5} {row['name']:<24} pid={row['player_id']} "
-              f"inj={row['injury'] or '-':<12}")
+    me = str(cfg.get('team_id', 4))
+    for t in data.get('teams', []):
+        tag = ' <-- MINE' if t['team_id'] == me else ''
+        print(f"Team {t['team_id']:>2} {t['team_name']:<28} ({len(t['rows'])} slots){tag}")
+        if t['team_id'] == me:
+            for row in t['rows']:
+                flag = f" [{row['injury']}]" if row['injury'] else ''
+                print(f"    {row['slot']:<6} {row['name']:<24} pid={row['player_id']}{flag}")
 
 
 if __name__ == '__main__':
