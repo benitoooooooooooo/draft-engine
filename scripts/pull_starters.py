@@ -29,7 +29,7 @@ JS = '''
                 });
     }
   });
-  return JSON.stringify({count: rows.length, rows: rows.slice(0, 20)}, null, 1);
+  return JSON.stringify({count: rows.length, rows: rows.slice(0, 20)});
 })()
 '''
 
@@ -38,19 +38,20 @@ def main():
     cfg = load_config()
     base = f"https://football.fantasysports.yahoo.com/f1/{cfg['league_id']}/{cfg.get('team_id', 4)}"
     launch_headless()
-    r = subprocess.run([BUN, EVAL, base + '/starters', JS],
+    out = os.path.join(BASE, 'scrape', 'starters.json')
+    r = subprocess.run([BUN, EVAL, base + '/starters', JS, out],
                        capture_output=True, text=True, timeout=180)
-    line = [l for l in r.stdout.splitlines() if l.strip()][-1]
+    if r.returncode != 0 or not os.path.exists(out):
+        print('ERR:', r.stderr[:300], r.stdout[:200]); return
+    raw = open(out).read()
     try:
-        data = json.loads(json.loads(line)) if line.strip().startswith('"') else json.loads(line)
+        data = json.loads(raw)
     except json.JSONDecodeError:
-        print('RAW:', line[:2000]); return
+        print('RAW head:', raw[:400]); return
     print(f"rows matched: {data.get('count')}")
     for row in data.get('rows', []):
         print(f"  {row['pos_req']:<5} {row['name']:<24} pid={row['player_id']} "
-              f"inj={row['injury'] or '-':<12} game={row['game'][:22]} cells={row['row_cells'][:3]}")
-    out = os.path.join(BASE, 'scrape', 'starters.json')
-    json.dump(data, open(out, 'w'), indent=2)
+              f"inj={row['injury'] or '-':<12} game={row['game'][:22]}")
 
 
 if __name__ == '__main__':
