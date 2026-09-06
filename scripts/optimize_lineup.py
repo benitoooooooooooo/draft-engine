@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Lineup optimizer (yellow mode): pulls Yahoo's own weekly projections for
-our 15 players, proposes the optimal 9, compares against Yahoo's current
-starters, prints a Telegram-ready card. Proposes only — the agent clicks
-after your OK.
+"""Lineup optimizer (yellow mode): pull Yahoo's starters page for our team,
+value each player, propose the optimal 9, compare vs current, print a
+Telegram-ready card. Proposes only — the agent clicks after your OK.
 
 Usage: .venv/bin/python scripts/optimize_lineup.py
 """
@@ -19,7 +18,6 @@ BUN = os.path.expanduser('~/.bun/bin/bun')
 EVAL = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fetch_cdp_eval.js')
 OUT = os.path.join(BASE, 'week_projections.json')
 
-# Pull our team's row set with: slot, name, pid, injury, and full cell text
 JS = '''
 (() => {
   const tables = [...document.querySelectorAll('table')];
@@ -44,38 +42,41 @@ JS = '''
 })()
 '''
 
-STARTERS = {'QB': 1, 'RB': 2, 'WR': 2, 'TE': 1, 'FLEX': 1, 'K': 1, 'DEF': 1}
 FLEX_OK = ('RB', 'WR', 'TE')
 
 
 def proj_from_cell(cell):
+    """Yahoo's weekly projection, if the page shows one (usually appears ~Fri)."""
     m = re.search(r'(-?\d+(?:\.\d+)?)\s*proj', cell, re.I)
-    return float(m.group(1)) if m else 0.0
+    return float(m.group(1)) if m else None
 
 
-def optimize(rows):
-    players = []
-    for r in rows:
-        players.append({**r, 'proj': proj_from_cell(r['cell'])})
-    by_slot = {}
-    for p in players:
-        s = {'W/R/T': 'FLEX', 'DEF': 'DEF', 'K': 'K'}.get(p['slot'], p['slot'])
-        p['eligible'] = [s] if s in ('K', 'DEF') else (
-            ['QB'] if s == 'QB' else (['RB', 'WR', 'TE', 'FLEX'] if s in FLEX_OK else
-                                      ['RB', 'WR', 'TE', 'FLEX']))
-        by_slot.setdefault(p['slot'], []).append(p)
-    # greedy: fill by slot requirement; player eligibility from their REAL position
-    # BN rows still hold their underlying position via name matching to team draft?
-    # Simpler: BN eligible for FLEX if RB/WR/TE per their draft pos -> we know from
-    # Yahoo: BN players list their pos in cell? no. Use season roster positions:
-    return players
+def pos_from_cell(cell):
+    m = re.search(r'\b[A-Z]{2,3}\s*-\s*(QB|RB|WR|TE|K|DEF|DT|DL|LB|DB)\b', cell)
+    if m:
+        return m.group(1)
+    m = re.search(r'\b(Was|Be)\s*-\s*(QB|RB|WR|TE|K|DEF)\b', cell)  # traded players
+    if m:
+        return m.group(2)
+    return None
 
 
-POS_FROM_DRAFT = {}  # pid -> RB/WR/TE/QB/K/DEF (filled from draft_full.json + settings)
+def season_weekly():
+    """Fallback value: season PPR / 17 from the draft pool; K/DEF constants."""
+    vals = {}
+    try:
+        pool = json.load(open(os.path.join(os.path.dirname(BASE),
+                                           'draft-engine', 'data', 'draft_pool.json')))
+        vals = {p['name']: p['projected_pts'] / 17.0 for p in pool}
+    except OSError:
+        pass
+    vals.setdefault('Ka\u2019imi Fairbairn', 8.5)
+    vals.setdefault("Ka'imi Fairbairn", 8.5)
+    vals.setdefault('Eagles', 8.0)
+    return vals
 
 
-def load_positions():
-    """Map player names to positions via the draft record (authoritative)."""
+def load_draft_positions():
     path = os.path.join(BASE, 'scrape', 'draft_full.json')
     try:
         d = json.load(open(path))
@@ -84,35 +85,30 @@ def load_positions():
         return {}
 
 
-def best_lineup(players, real_pos):
-    for p in players:
-        if p['slot'] in ('BN', 'IR'):
-            p['pos'] = real_pos.get(p['name'], '?')
-        else:
-            p['pos'] = {'W/R/T': 'FLEX', 'DEF': 'DEF'}.get(p['slot'], p['slot'])
-    chosen = []
-    used = set()
-    def take(n, predicate, label):
-        cand = sorted([p for p in players if p['pid'] not in used and predicate(p)],
+def plan_lineup(players):
+    chosen, used = [], set()
+
+    def take(n, label, eligible):
+        cand = sorted([p for p in players if p['pid'] not in used and p['pos'] in eligible],
                       key=lambda x: -x['proj'])[:n]
         for c in cand:
             used.add(c['pid'])
             chosen.append((label, c))
-        return len(cand) == n
-    take(STARTERS['QB'], lambda p: p['pos'] == 'QB', 'QB')
-    take(STARTERS['RB'], lambda p: p['pos'] == 'RB', 'RB')
-    take(STARTERS['WR'], lambda p: p['pos'] == 'WR', 'WR')
-    take(STARTERS['TE'], lambda p: p['pos'] == 'TE', 'TE')
-    flex_ok = take(STARTERS['FLEX'], lambda p: p['pos'] in FLEX_OK, 'W/R/T')
-    take(STARTERS['K'], lambda p: p['pos'] == 'K', 'K')
-    take(STARTERS['DEF'], lambda p: p['pos'] == 'DEF', 'DEF')
+
+    take(1, 'QB', ('QB',))
+    take(2, 'RB', ('RB',))
+    take(2, 'WR', ('WR',))
+    take(1, 'TE', ('TE',))
+    take(1, 'W/R/T', FLEX_OK)
+    take(1, 'K', ('K',))
+    take(1, 'DEF', ('DEF',))
     return chosen, [p for p in players if p['pid'] not in used]
 
 
 def main():
     cfg = load_config()
     launch_headless()
-    base = f"https://football.fantasysports.yahoo.com/f1/{cfg['league_id']}/{cfg.get('team_id',4)}"
+    base = f"https://football.fantasysports.yahoo.com/f1/{cfg['league_id']}/{cfg.get('team_id', 4)}"
     r = subprocess.run([BUN, EVAL, base + '/starters', JS, OUT],
                        capture_output=True, text=True, timeout=180)
     if r.returncode != 0 or not os.path.exists(OUT):
@@ -120,35 +116,49 @@ def main():
     data = json.load(open(OUT))
     if 'error' in data:
         sys.exit(data['error'])
-    players = [{**p, 'proj': proj_from_cell(p['cell'])} for p in data['rows']]
+    draft_pos = load_draft_positions()
+    weekly = season_weekly()
+    players, used_fallback = [], 0
+    for p in data['rows']:
+        proj = proj_from_cell(p['cell'])
+        if proj is None:
+            proj = weekly.get(p['name'], 0.0)
+            used_fallback += 1
+        pos = (pos_from_cell(p['cell']) or draft_pos.get(p['name'])
+               or {'W/R/T': 'FLEX', 'DEF': 'DEF', 'K': 'K'}.get(p['slot'], p['slot']))
+        players.append({**p, 'proj': proj, 'pos': pos})
     current = {p['pid']: p['slot'] for p in players if p['is_start']}
-    real_pos = load_positions()
-    chosen, bench = best_lineup(players, real_pos)
-    chosen_ids = {c['pid'] for _, c in chosen}
+    chosen, bench = plan_lineup(players)
+    chosen_ids = {p['pid'] for _, p in chosen}
 
-    L = ['🏈 WEEK 1 LINEUP — Straight to Jail', '   (by Yahoo\'s own projections)', '─' * 44]
-    ups = []
+    src = "Yahoo weekly projections" if not used_fallback else \
+        f"season-avg/week fallback ({used_fallback}/15)"
+    L = ['🏈 LINEUP — Straight to Jail', f'   value source: {src}', '─' * 46]
+    ups, downs = [], []
     for slot, p in chosen:
         mark = f" [{p['injury'][0]}]" if p['injury'] else ''
-        was = current.get(p['pid'])
-        star = '  ⬆ START' if was is None else ''
-        if was is None:
-            ups.append(p['name'])
+        star = ''
+        if current.get(p['pid']) is None:
+            star = '  ⬆ START'
+            ups.append(p)
         L.append(f"  {slot:<6}{p['name']:<24}{p['proj']:>5.1f}{mark}{star}")
-    L.append('─' * 44)
+    L.append('─' * 46)
     L.append('  BN: ' + ', '.join(f"{p['name']} ({p['proj']:.1f})" for p in
                                   sorted(bench, key=lambda x: -x['proj'])))
-    total = sum(p['proj'] for _, p in chosen)
-    L.append('─' * 44)
-    L.append(f"  proj total: {total:.1f}")
-    if ups:
-        L.append(f"  🔁 PROPOSED CHANGE: start {' + '.join(ups)}")
-        for name in ups:
-            drop = max((p for p in bench), key=lambda x: x['proj'])
-            L.append(f"     in: {name} ({[p for _,p in chosen if p['name']==name][0]['proj']:.1f})"
-                     f"   out: {drop['name']} ({drop['proj']:.1f})")
+    L.append('─' * 46)
+    L.append(f"  proj total: {sum(p['proj'] for _, p in chosen):.1f}")
+    for p in players:
+        if p['is_start'] and p['pid'] not in chosen_ids:
+            downs.append(p)
+    if ups or downs:
+        L.append('  🔁 PROPOSED SWAPS:')
+        for u in ups:
+            L.append(f"     IN  {u['name']} ({u['proj']:.1f})")
+        for d in sorted(downs, key=lambda x: -x['proj']):
+            L.append(f"     OUT {d['name']} ({d['proj']:.1f})")
+        L.append('  reply ✅ to have the agent submit, or name your own')
     else:
-        L.append('  ✅ Yahoo current lineup is already projection-optimal')
+        L.append('  ✅ current lineup already optimal — no action needed')
     print('\n'.join(L))
 
 
