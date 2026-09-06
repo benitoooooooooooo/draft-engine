@@ -33,18 +33,18 @@ PAGES = {
 
 
 def fetch_headless(url, out_path, wait=2):
-    """Zero-dependency: fresh headless chrome --dump-dom on the logged-in profile.
-    Slower per page but reliable and needs no websocket library."""
+    """Drive the persistent CDP Chrome via bun + fetch_cdp.js (websocket-free python)."""
     import subprocess
-    from yahoo_session import CHROME, PROFILE
-    ensure_dirs()
-    cmd = [CHROME, f'--user-data-dir={PROFILE}', '--headless=new', '--no-first-run',
-           '--disable-gpu', '--virtual-time-budget=15000', '--dump-dom', url]
-    r = subprocess.run(cmd, capture_output=True, text=True, timeout=90)
-    html = r.stdout
-    with open(out_path, 'w') as f:
-        f.write(html)
-    return html
+    from yahoo_session import launch_headless
+    launch_headless()  # idempotent
+    script = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fetch_cdp.js')
+    bun = os.path.expanduser('~/.bun/bin/bun')
+    r = subprocess.run([bun, script, url, out_path, str(int(wait * 1000))],
+                       capture_output=True, text=True, timeout=120)
+    if r.returncode != 0:
+        raise RuntimeError(f'fetch_cdp failed: {r.stderr[:300]}')
+    with open(out_path) as f:
+        return f.read()
 
 
 def wall_check(html):
