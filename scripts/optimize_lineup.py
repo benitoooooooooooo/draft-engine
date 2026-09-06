@@ -13,6 +13,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from yahoo_session import BASE, load_config, launch_headless
+from weekly_values import lookup as weekly_lookup, norm as wnorm
 
 BUN = os.path.expanduser('~/.bun/bin/bun')
 EVAL = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fetch_cdp_eval.js')
@@ -118,33 +119,40 @@ def main():
         sys.exit(data['error'])
     draft_pos = load_draft_positions()
     weekly = season_weekly()
-    players, used_fallback = [], 0
+    players, used_fallback, missing = [], 0, []
     for p in data['rows']:
-        proj = proj_from_cell(p['cell'])
-        if proj is None:
+        wk = weekly_lookup(p['name'])
+        if wk:
+            proj, grade, opp = wk
+            src = 'FP weekly'
+        else:
             proj = weekly.get(p['name'], 0.0)
+            grade, opp, src = '', '', 'fallback'
             used_fallback += 1
+            missing.append(p['name'])
         pos = (pos_from_cell(p['cell']) or draft_pos.get(p['name'])
                or {'W/R/T': 'FLEX', 'DEF': 'DEF', 'K': 'K'}.get(p['slot'], p['slot']))
-        players.append({**p, 'proj': proj, 'pos': pos})
+        players.append({**p, 'proj': proj, 'pos': pos, 'grade': grade, 'opp': opp})
     current = {p['pid']: p['slot'] for p in players if p['is_start']}
     chosen, bench = plan_lineup(players)
     chosen_ids = {p['pid'] for _, p in chosen}
 
-    src = "Yahoo weekly projections" if not used_fallback else \
-        f"season-avg/week fallback ({used_fallback}/15)"
-    L = ['🏈 LINEUP — Straight to Jail', f'   value source: {src}', '─' * 46]
+    src = 'FP weekly consensus, matchup-aware (40+ experts incl FTN)' if not used_fallback else \
+        f'mixed: {15-used_fallback}/15 weekly consensus, {used_fallback} fallback ({", ".join(missing)})'
+    L = ['🏈 LINEUP — Straight to Jail', f'   values: {src}', '─' * 52]
     ups, downs = [], []
     for slot, p in chosen:
         mark = f" [{p['injury'][0]}]" if p['injury'] else ''
+        grade = p.get('grade', '')
+        opp = p.get('opp', '')
         star = ''
         if current.get(p['pid']) is None:
             star = '  ⬆ START'
             ups.append(p)
-        L.append(f"  {slot:<6}{p['name']:<24}{p['proj']:>5.1f}{mark}{star}")
+        L.append(f"  {slot:<6}{p['name']:<24}{grade:<3}{opp:<9}{p['proj']:>5.1f}{mark}{star}")
     L.append('─' * 46)
-    L.append('  BN: ' + ', '.join(f"{p['name']} ({p['proj']:.1f})" for p in
-                                  sorted(bench, key=lambda x: -x['proj'])))
+    L.append('  BN: ' + ', '.join(f"{p['name']} ({p['proj']:.1f}{',' + p['grade'] if p.get('grade') else ''})"
+                                  for p in sorted(bench, key=lambda x: -x['proj'])))
     L.append('─' * 46)
     L.append(f"  proj total: {sum(p['proj'] for _, p in chosen):.1f}")
     for p in players:
