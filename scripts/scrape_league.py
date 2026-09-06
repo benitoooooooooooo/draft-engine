@@ -62,7 +62,7 @@ def main():
     cfg = load_config()
     os.makedirs(args.outdir, exist_ok=True)
     lid = cfg['league_id']
-    base = f"https://fantasysports.yahoo.com/football/league/{lid}"
+    base = f"https://football.fantasysports.yahoo.com/f1/{lid}"
     for page in args.pages.split(','):
         path = PAGES.get(page.strip())
         if not path:
