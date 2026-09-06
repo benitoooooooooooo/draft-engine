@@ -53,8 +53,8 @@ def main():
         print('RAW head:', raw[:400]); return
     print(f"rows matched: {data.get('count')}")
     for row in data.get('rows', []):
-        print(f"  {row['pos_req']:<5} {row['name']:<24} pid={row['player_id']} "
-              f"inj={row['injury'] or '-':<12} game={row['game'][:22]}")
+        print(f"  {row['slot']:<5} {row['name']:<24} pid={row['player_id']} "
+              f"inj={row['injury'] or '-':<12}")
 
 
 if __name__ == '__main__':
