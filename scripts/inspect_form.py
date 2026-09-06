@@ -31,9 +31,7 @@ def main():
     cfg = load_config()
     launch_headless()
     base = f"https://football.fantasysports.yahoo.com/f1/{cfg['league_id']}/4"
-    for path in ('starters', '4/add'):
-        url = base + '/' + path if path == 'starters' else \
-            f"https://football.fantasysports.yahoo.com/f1/{cfg['league_id']}/{path}"
+    for url in (base, base + '/starters'):
         r = subprocess.run([BUN, EVAL, url, JS], capture_output=True, text=True, timeout=150)
         line = (r.stdout.strip().splitlines() or ['FAIL'])[-1]
         try:
@@ -41,7 +39,7 @@ def main():
             d = json.loads(d) if isinstance(d, str) else d
         except Exception:
             d = {'raw': line[:300]}
-        print(f"\n== {path}")
+        print(f"\n== {url.split(cfg['league_id'])[1] or '/(team page)'}")
         print(json.dumps(d, indent=1)[:1400])
 
 
