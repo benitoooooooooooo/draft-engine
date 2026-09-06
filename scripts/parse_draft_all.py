@@ -20,9 +20,9 @@ ROW = re.compile(
 def main():
     html = open(SRC).read()
     rows = []
-    for m in ROW.finditer(html):
+    for i, m in enumerate(ROW.finditer(html)):
         pick, player, nflteam, pos, team = m.groups()
-        rows.append({'round': (int(pick) - 1) // 10 + 1, 'pick_in_round': int(pick),
+        rows.append({'round': i // 10 + 1, 'pick': int(pick), 'overall': i + 1,
                      'player': player.strip(), 'nfl_team': nflteam.strip().upper(),
                      'pos': pos.strip().upper(), 'team': team.strip()})
     # rows may be duplicated per sort view; dedupe by (player, team)
