@@ -44,7 +44,7 @@ def main():
     for t in teams:
         rs = by_team[t]
         print(f"\n{t} ({len(rs)}):")
-        for r in sorted(rs, key=lambda x: (x['round'], x['pick_in_round']))[:15]:
+        for r in sorted(rs, key=lambda x: (x['round'], x['pick']))[:15]:
             print(f"  R{r['round']:<2} {r['player']:<24} {r['pos']:<3} {r['nfl_team']}")
         if len(rs) > 15:
             print(f"  ...+{len(rs)-15}")
