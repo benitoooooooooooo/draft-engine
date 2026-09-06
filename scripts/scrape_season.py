@@ -30,7 +30,7 @@ def main():
     os.makedirs(os.path.join(OUT, 'rosters'), exist_ok=True)
 
     # 1. draft results (also gives manager/team mapping)
-    run(FETCH, f'{base}/draft/results', os.path.join(OUT, 'draft_results.html'), '5000')
+    run(FETCH, f'{base}/draft', os.path.join(OUT, 'draft_results.html'), '5000')
     html = open(os.path.join(OUT, 'draft_results.html')).read()
     print('draft page bytes:', len(html), '| BEEF:', 'BEEF' in html,
           '| McCaffrey:', 'McCaffrey' in html)
