@@ -26,25 +26,43 @@ WIRE_JS = """JSON.stringify([...document.querySelectorAll('table tr')].map(tr =>
 }).filter(Boolean).slice(0, 80))"""
 
 
+def extract(url, js):
+    """Run JS on url via CDP; returns parsed result. Exits loudly with a
+    Telegram-readable alert if Yahoo bounced us to the sign-in wall."""
+    out = subprocess.run([BUN, EVAL, url, js], capture_output=True,
+                         text=True, timeout=180)
+    lines = out.stdout.strip().splitlines()
+    if not lines:
+        sys.exit('ALERT: Yahoo fetch returned nothing (CDP/chrome down on mini?). '
+                 f'stderr: {out.stderr.strip()[:200]}')
+    r = json.loads(lines[-1])
+    r = json.loads(r) if isinstance(r, str) else r
+    if isinstance(r, dict) and r.get('error'):
+        # team table not found == almost always the login wall (200 + 0 tables)
+        sys.exit('ALERT: YAHOO SESSION EXPIRED on the mini. Waiver card cannot '
+                 'run. Re-login: ssh mini, then run '
+                 '~/draft-engine/.venv/bin/python ~/draft-engine/scripts/'
+                 'yahoo_session.py launch --headful and sign in (check "Stay '
+                 'signed in").')
+    return r
+
+
 def main():
     cfg = load_config()
     launch_headless()
     lid = cfg['league_id']
     # our injury situation first
     team_url = f"https://football.fantasysports.yahoo.com/f1/{lid}/4"
-    me = json.loads(subprocess.run(
-        [BUN, EVAL, team_url + '/starters', JS], capture_output=True,
-        text=True, timeout=180).stdout.strip().splitlines()[-1])
-    me = json.loads(me) if isinstance(me, str) else me
-    injured = [(r['name'], r['injury'], r['slot']) for r in me['rows']
+    me = extract(team_url + '/starters', JS)
+    injured = [(r['name'], r['injury'], r['slot']) for r in me.get('rows', [])
                if r['injury'] and r['is_start']]
 
     weekly, dpos = season_weekly(), load_draft_positions()
-    wire = json.loads(subprocess.run(
-        [BUN, EVAL, f'https://football.fantasysports.yahoo.com/f1/{lid}/players?status=A',
-         WIRE_JS], capture_output=True, text=True, timeout=180)
-        .stdout.strip().splitlines()[-1])
-    wire = json.loads(wire) if isinstance(wire, str) else wire
+    wire = extract(f'https://football.fantasysports.yahoo.com/f1/{lid}/players?status=A',
+                   WIRE_JS)
+    if not isinstance(wire, list):
+        sys.exit('ALERT: waiver-wire page returned unexpected shape '
+                 f'(keys: {list(wire)[:5]}) — Yahoo DOM change?')
 
     rows, graded = [], 0
     for p in wire:
