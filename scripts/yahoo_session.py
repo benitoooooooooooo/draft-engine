@@ -44,10 +44,25 @@ def load_config():
 
 
 def launch_headless(headful=False):
-    """Start Chrome on the persistent profile with CDP enabled (idempotent)."""
+    """Start Chrome on the persistent profile with CDP enabled (idempotent).
+
+    If a headless instance is already running and a headful one is requested
+    (or vice versa), replace it — otherwise the mode switch silently no-ops
+    and the user never sees a sign-in window.
+    """
     ensure_dirs()
     if chrome_alive():
-        return True
+        running_headless = chrome_is_headless()
+        if headful and not running_headless:
+            return True
+        if not headful and running_headless:
+            return True
+        # mode mismatch: kill and relaunch in the requested mode
+        subprocess.run(['pkill', '-f', PROFILE], check=False)
+        for _ in range(40):
+            if not chrome_alive():
+                break
+            time.sleep(0.25)
     args = [CHROME, f'--remote-debugging-port={CDP_PORT}',
             f'--user-data-dir={PROFILE}', '--no-first-run',
             '--no-default-browser-check', '--disable-background-timer-throttling']
@@ -70,6 +85,16 @@ def chrome_alive():
         return False
 
 
+def chrome_is_headless():
+    """True if the CDP instance answering is a headless Chrome."""
+    try:
+        import urllib.request
+        with urllib.request.urlopen(f'http://127.0.0.1:{CDP_PORT}/json/version', timeout=2) as r:
+            return 'HeadlessChrome' in json.load(r).get('Browser', '')
+    except Exception:
+        return False
+
+
 def league_page():
     c = load_config()
     return LEAGUE_URL.format(c['league_id'])
@@ -81,7 +106,20 @@ if __name__ == '__main__':
         save_config(sys.argv[2] if len(sys.argv) > 2 else 968508)
         print('config written:', CONFIG_PATH)
     elif len(sys.argv) > 1 and sys.argv[1] == 'launch':
-        print('chrome up:', launch_headless(headful='--headful' in sys.argv))
+        headful = '--headful' in sys.argv
+        ok = launch_headless(headful=headful)
+        print('chrome up:', ok)
+        if ok and headful and os.path.exists(CONFIG_PATH):
+            # open the league page so the user lands on (or is bounced to) login
+            import urllib.request
+            url = league_page()
+            try:
+                req = urllib.request.Request(
+                    f'http://127.0.0.1:{CDP_PORT}/json/new?{url}', method='PUT')
+                urllib.request.urlopen(req, timeout=5)
+                print('opened league page for sign-in:', url)
+            except Exception as e:
+                print('could not open tab:', e)
     else:
         print('chrome alive:', chrome_alive())
         print('league page:', league_page() if os.path.exists(CONFIG_PATH) else 'config missing')
