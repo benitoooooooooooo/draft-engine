@@ -46,18 +46,18 @@ def load_config():
 def launch_headless(headful=False):
     """Start Chrome on the persistent profile with CDP enabled (idempotent).
 
-    If a headless instance is already running and a headful one is requested
-    (or vice versa), replace it — otherwise the mode switch silently no-ops
-    and the user never sees a sign-in window.
+    A live instance is ONLY ever replaced when the caller explicitly wants
+    headful and the running one is headless. Headless (script) callers must
+    never kill a visible logged-in window — attaching over CDP is enough,
+    and a kill races cookie flushes and can wipe a fresh login.
     """
     ensure_dirs()
     if chrome_alive():
-        running_headless = chrome_is_headless()
-        if headful and not running_headless:
-            return True
-        if not headful and running_headless:
-            return True
-        # mode mismatch: kill and relaunch in the requested mode
+        if not headful:
+            return True  # scripts: use the running instance, any mode
+        if not chrome_is_headless():
+            return True  # user: the visible window they asked for exists
+        # headful requested but a headless instance owns the profile
         subprocess.run(['pkill', '-f', PROFILE], check=False)
         for _ in range(40):
             if not chrome_alive():
@@ -65,7 +65,8 @@ def launch_headless(headful=False):
             time.sleep(0.25)
     args = [CHROME, f'--remote-debugging-port={CDP_PORT}',
             f'--user-data-dir={PROFILE}', '--no-first-run',
-            '--no-default-browser-check', '--disable-background-timer-throttling']
+            '--no-default-browser-check', '--disable-background-timer-throttling',
+            '--disable-extensions']
     if not headful:
         args += ['--headless=new', '--disable-gpu']
     subprocess.Popen(args, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
