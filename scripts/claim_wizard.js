@@ -50,8 +50,8 @@ async function clickXY(x, y) {
   }
 }
 
-// 1) locate Jeudy row's trigger button center
-const find = (sel) => `(function(){var el=${sel};if(!el)return null;var r=el.getBoundingClientRect();return JSON.stringify({x:r.x+r.width/2,y:r.y+r.height/2});})()`;
+// 1) locate Jeudy row's trigger button center (scrolled into view first)
+const find = (sel) => `(function(){var el=${sel};if(!el)return null;el.scrollIntoView({block:'center'});return new Promise(function(res){setTimeout(function(){var r=el.getBoundingClientRect();res(JSON.stringify({x:r.x+r.width/2,y:r.y+r.height/2,label:(el.innerText||'').trim()}));},400);});})()`;
 
 let r1 = await evl(find(
   `[...document.querySelectorAll('form tr')].find(tr=>tr.innerText.includes(${JSON.stringify(dropName)}))?.querySelector('button.add-drop-trigger-btn')`
