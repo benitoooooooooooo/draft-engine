@@ -22,7 +22,7 @@ PROFILE = os.path.join(BASE, 'chrome-profile')
 CONFIG_PATH = os.path.join(BASE, 'config.json')
 CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 CDP_PORT = 9333
-LEAGUE_URL = "https://fantasysports.yahoo.com/football/league/{}/teams"
+LEAGUE_URL = "https://football.fantasysports.yahoo.com/f1/{}/teams"
 
 
 def ensure_dirs():
