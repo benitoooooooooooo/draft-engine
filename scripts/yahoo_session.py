@@ -86,13 +86,19 @@ def chrome_alive():
 
 
 def chrome_is_headless():
-    """True if the CDP instance answering is a headless Chrome."""
-    try:
-        import urllib.request
-        with urllib.request.urlopen(f'http://127.0.0.1:{CDP_PORT}/json/version', timeout=2) as r:
-            return 'HeadlessChrome' in json.load(r).get('Browser', '')
-    except Exception:
-        return False
+    """True if a headless Chrome is running on our profile.
+
+    NOTE: Chrome >=132 headless=new self-reports as plain 'Chrome/...' on
+    /json/version, so the CDP Browser string is NOT a reliable signal.
+    Check the actual --headless=new process arg instead.
+    """
+    r = subprocess.run(['pgrep', '-f', PROFILE], capture_output=True, text=True)
+    for pid in r.stdout.split():
+        ps = subprocess.run(['ps', '-o', 'command=', '-p', pid],
+                            capture_output=True, text=True).stdout
+        if '--headless' in ps:
+            return True
+    return False
 
 
 def league_page():
